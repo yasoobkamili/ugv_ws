@@ -1,0 +1,1 @@
+/home/pi/ugv_ws/src/ugv_else/ldlidar/launch/ld06.launch.py

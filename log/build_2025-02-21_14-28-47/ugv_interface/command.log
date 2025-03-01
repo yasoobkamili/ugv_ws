@@ -1,0 +1,6 @@
+Invoking command in '/home/pi/ugv_ws/build/ugv_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ugv_ws/src/ugv_main/ugv_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ugv_ws/install/ugv_interface
+Invoked command in '/home/pi/ugv_ws/build/ugv_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ugv_ws/src/ugv_main/ugv_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ugv_ws/install/ugv_interface
+Invoking command in '/home/pi/ugv_ws/build/ugv_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ugv_interface -- -j4 -l4
+Invoked command in '/home/pi/ugv_ws/build/ugv_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ugv_interface -- -j4 -l4
+Invoking command in '/home/pi/ugv_ws/build/ugv_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ugv_interface
+Invoked command in '/home/pi/ugv_ws/build/ugv_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ugv_interface

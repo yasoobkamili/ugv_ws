@@ -1,0 +1,19 @@
+[5.115s] Invoking command in '/home/pi/ugv_ws/build/ugv_tools': PYTHONPATH=/home/pi/ugv_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_tools/build --no-deps symlink_data
+[7.240s] running develop
+[8.694s] running egg_info
+[8.698s] writing ugv_tools.egg-info/PKG-INFO
+[8.698s] writing dependency_links to ugv_tools.egg-info/dependency_links.txt
+[8.699s] writing entry points to ugv_tools.egg-info/entry_points.txt
+[8.699s] writing requirements to ugv_tools.egg-info/requires.txt
+[8.699s] writing top-level names to ugv_tools.egg-info/top_level.txt
+[8.707s] reading manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[8.710s] writing manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[8.719s] running build_ext
+[8.721s] Creating /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv-tools.egg-link (link to .)
+[8.725s] Installing behavior_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[8.727s] Installing joy_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[8.734s] Installing keyboard_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[8.737s] 
+[8.738s] Installed /home/pi/ugv_ws/build/ugv_tools
+[8.739s] running symlink_data
+[8.938s] Invoked command in '/home/pi/ugv_ws/build/ugv_tools' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_tools/build --no-deps symlink_data

@@ -1,0 +1,85 @@
+[0.075s] Invoking command in '/home/pi/ugv_ws/build/teb_local_planner': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/teb_msgs/lib:/home/pi/ugv_ws/install/costmap_converter/lib:/home/pi/ugv_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pi/ugv_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/pi/ugv_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/ugv_ws/build/teb_local_planner -- -j4 -l4
+[0.322s] [35m[1mConsolidate compiler generated dependencies of target teb_local_planner[0m
+[0.897s] [ 10%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o[0m
+[47.632s] In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+[47.636s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+[47.639s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/teb_local_planner/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:42[m[K,
+[47.642s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp:39[m[K:
+[47.645s] [01m[K/home/pi/ugv_ws/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[47.648s] [01m[K/home/pi/ugv_ws/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[47.651s]   314 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[47.654s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[47.657s] In file included from [01m[K/home/pi/ugv_ws/src/ugv_else/teb_local_planner/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:68[m[K,
+[47.660s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp:39[m[K:
+[47.663s] [01m[K/home/pi/ugv_ws/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[47.666s]   314 | apToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[47.669s]       |                                                                                 [01;36m[K~^[m[K
+[47.672s]       |                                                                                  [01;36m[K|[m[K
+[47.675s]       |                                                                                  [01;36m[Kchar*[m[K
+[47.678s] 
+[157.628s] [ 20%] [32m[1mLinking CXX shared library libteb_local_planner.so[0m
+[161.657s] [100%] Built target teb_local_planner
+[161.704s] Invoked command in '/home/pi/ugv_ws/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/teb_msgs/lib:/home/pi/ugv_ws/install/costmap_converter/lib:/home/pi/ugv_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pi/ugv_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/pi/ugv_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/ugv_ws/build/teb_local_planner -- -j4 -l4
+[161.714s] Invoking command in '/home/pi/ugv_ws/build/teb_local_planner': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/teb_msgs/lib:/home/pi/ugv_ws/install/costmap_converter/lib:/home/pi/ugv_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pi/ugv_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/pi/ugv_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/ugv_ws/build/teb_local_planner
+[161.744s] -- Install configuration: "Release"
+[161.746s] -- Execute custom install script
+[161.748s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/lib/libteb_local_planner.so
+[161.753s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/distance_calculations.h
+[161.755s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/equivalence_relations.h
+[161.756s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/base_teb_edges.h
+[161.757s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_acceleration.h
+[161.758s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_dynamic_obstacle.h
+[161.759s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_kinematics.h
+[161.760s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_obstacle.h
+[161.761s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_prefer_rotdir.h
+[161.763s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_shortest_path.h
+[161.764s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_time_optimal.h
+[161.765s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_velocity.h
+[161.766s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_velocity_obstacle_ratio.h
+[161.767s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/edge_via_point.h
+[161.768s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/penalties.h
+[161.769s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/vertex_pose.h
+[161.771s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/g2o_types/vertex_timediff.h
+[161.772s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/graph_search.h
+[161.773s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/h_signature.h
+[161.774s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/homotopy_class_planner.h
+[161.775s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/homotopy_class_planner.hpp
+[161.776s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/misc.h
+[161.777s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/obstacles.h
+[161.778s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/optimal_planner.h
+[161.779s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/planner_interface.h
+[161.780s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/pose_se2.h
+[161.781s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/recovery_behaviors.h
+[161.782s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/robot_footprint_model.h
+[161.783s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/teb_config.h
+[161.784s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/teb_local_planner_ros.h
+[161.785s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/timed_elastic_band.h
+[161.786s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/timed_elastic_band.hpp
+[161.787s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/visualization.h
+[161.788s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/include//teb_local_planner/visualization.hpp
+[161.790s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner_plugin.xml
+[161.791s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/lib/teb_local_planner/cmd_vel_to_ackermann_drive.py
+[161.794s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/params/teb_params.yaml
+[161.794s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/environment/library_path.sh
+[161.796s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/environment/library_path.dsv
+[161.796s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner//teb_local_planner_plugin.xml
+[161.798s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/ament_index/resource_index/package_run_dependencies/teb_local_planner
+[161.799s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/ament_index/resource_index/parent_prefix_path/teb_local_planner
+[161.801s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/environment/ament_prefix_path.sh
+[161.802s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/environment/ament_prefix_path.dsv
+[161.803s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/environment/path.sh
+[161.804s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/environment/path.dsv
+[161.806s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/local_setup.bash
+[161.807s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/local_setup.sh
+[161.808s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/local_setup.zsh
+[161.809s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/local_setup.dsv
+[161.810s] -- Symlinking: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/package.dsv
+[161.847s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/ament_index/resource_index/packages/teb_local_planner
+[161.848s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/teb_local_planner
+[161.851s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[161.854s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[161.856s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[161.859s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/cmake/teb_local_plannerConfig.cmake
+[161.860s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/cmake/teb_local_plannerConfig-version.cmake
+[161.864s] -- Up-to-date symlink: /home/pi/ugv_ws/install/teb_local_planner/share/teb_local_planner/package.xml
+[161.866s] Invoked command in '/home/pi/ugv_ws/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/teb_msgs/lib:/home/pi/ugv_ws/install/costmap_converter/lib:/home/pi/ugv_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pi/ugv_ws/install/costmap_converter/bin:${PATH} PYTHONPATH=/home/pi/ugv_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/ugv_ws/build/teb_local_planner

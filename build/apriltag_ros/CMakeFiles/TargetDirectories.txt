@@ -1,0 +1,11 @@
+/home/pi/ugv_ws/build/apriltag_ros/CMakeFiles/uninstall.dir
+/home/pi/ugv_ws/build/apriltag_ros/CMakeFiles/apriltag_ros_uninstall.dir
+/home/pi/ugv_ws/build/apriltag_ros/CMakeFiles/tag_detector.dir
+/home/pi/ugv_ws/build/apriltag_ros/CMakeFiles/AprilTagNode.dir
+/home/pi/ugv_ws/build/apriltag_ros/CMakeFiles/test.dir
+/home/pi/ugv_ws/build/apriltag_ros/CMakeFiles/edit_cache.dir
+/home/pi/ugv_ws/build/apriltag_ros/CMakeFiles/rebuild_cache.dir
+/home/pi/ugv_ws/build/apriltag_ros/CMakeFiles/list_install_components.dir
+/home/pi/ugv_ws/build/apriltag_ros/CMakeFiles/install.dir
+/home/pi/ugv_ws/build/apriltag_ros/CMakeFiles/install/local.dir
+/home/pi/ugv_ws/build/apriltag_ros/CMakeFiles/install/strip.dir

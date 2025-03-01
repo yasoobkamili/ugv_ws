@@ -1,0 +1,293 @@
+[0.167s] Invoking command in '/home/pi/ugv_ws/build/vizanti_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/vizanti_msgs -- -j4 -l4
+[0.513s] [  0%] Built target vizanti_msgs__cpp
+[0.693s] [  0%] Built target ament_cmake_python_symlink_vizanti_msgs
+[0.862s] [ 11%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_cpp
+[1.052s] [ 23%] Built target vizanti_msgs__rosidl_typesupport_introspection_cpp
+[3.551s] running egg_info
+[3.574s] writing vizanti_msgs.egg-info/PKG-INFO
+[3.579s] writing dependency_links to vizanti_msgs.egg-info/dependency_links.txt
+[3.588s] writing top-level names to vizanti_msgs.egg-info/top_level.txt
+[3.630s] reading manifest file 'vizanti_msgs.egg-info/SOURCES.txt'
+[3.646s] writing manifest file 'vizanti_msgs.egg-info/SOURCES.txt'
+[4.000s] [ 23%] Built target ament_cmake_python_build_vizanti_msgs_egg
+[4.219s] [ 35%] Built target vizanti_msgs__rosidl_typesupport_cpp
+[4.448s] [ 47%] Built target vizanti_msgs__rosidl_generator_c
+[4.753s] [ 59%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_c
+[4.962s] [ 70%] Built target vizanti_msgs__rosidl_typesupport_c
+[5.194s] [ 82%] Built target vizanti_msgs__rosidl_typesupport_introspection_c
+[5.351s] [ 82%] Built target vizanti_msgs
+[5.535s] [ 83%] Built target vizanti_msgs__py
+[5.733s] [ 94%] Built target vizanti_msgs__rosidl_generator_py
+[5.964s] [ 96%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.233s] [ 98%] Built target vizanti_msgs__rosidl_typesupport_c__pyext
+[6.524s] [100%] Built target vizanti_msgs__rosidl_typesupport_introspection_c__pyext
+[6.633s] Invoked command in '/home/pi/ugv_ws/build/vizanti_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/vizanti_msgs -- -j4 -l4
+[6.635s] Invoking command in '/home/pi/ugv_ws/build/vizanti_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/vizanti_msgs
+[6.739s] -- Install configuration: ""
+[6.742s] -- Execute custom install script
+[6.744s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/ament_index/resource_index/rosidl_interfaces/vizanti_msgs
+[6.764s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.766s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__functions.h
+[6.767s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__struct.h
+[6.770s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__type_support.h
+[6.771s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/launches__functions.h
+[6.773s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/launches__struct.h
+[6.786s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/launches__type_support.h
+[6.788s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__functions.h
+[6.789s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__struct.h
+[6.790s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__type_support.h
+[6.791s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__functions.h
+[6.792s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__struct.h
+[6.793s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__type_support.h
+[6.796s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__functions.h
+[6.808s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__struct.h
+[6.815s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__type_support.h
+[6.817s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_launch__functions.h
+[6.822s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_launch__struct.h
+[6.827s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_launch__type_support.h
+[6.838s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__functions.h
+[6.844s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__struct.h
+[6.849s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__type_support.h
+[6.872s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__functions.h
+[6.879s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__struct.h
+[6.880s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__type_support.h
+[6.883s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__functions.h
+[6.884s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__struct.h
+[6.894s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__type_support.h
+[6.895s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__functions.h
+[6.897s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__struct.h
+[6.899s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__type_support.h
+[6.900s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/get_node_parameters.h
+[6.905s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/launches.h
+[6.906s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_executables.h
+[6.910s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_packages.h
+[6.912s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/load_map.h
+[6.913s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/manage_launch.h
+[6.914s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/manage_node.h
+[6.915s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/record_rosbag.h
+[6.916s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/save_map.h
+[6.917s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/set_node_parameter.h
+[6.918s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/environment/library_path.sh
+[6.918s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/environment/library_path.dsv
+[6.934s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.936s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_fastrtps_c.h
+[6.937s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/launches__rosidl_typesupport_fastrtps_c.h
+[6.939s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_fastrtps_c.h
+[6.940s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_fastrtps_c.h
+[6.941s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[6.943s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_launch__rosidl_typesupport_fastrtps_c.h
+[6.944s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_fastrtps_c.h
+[6.946s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_fastrtps_c.h
+[6.947s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[6.949s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_fastrtps_c.h
+[6.954s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.968s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_introspection_c.h
+[6.970s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/launches__rosidl_typesupport_introspection_c.h
+[6.971s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_introspection_c.h
+[6.972s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_introspection_c.h
+[6.972s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[6.992s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_launch__rosidl_typesupport_introspection_c.h
+[6.992s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_introspection_c.h
+[6.993s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_introspection_c.h
+[6.994s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[6.994s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_introspection_c.h
+[6.995s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.997s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__builder.hpp
+[6.999s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__struct.hpp
+[7.004s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__traits.hpp
+[7.007s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__type_support.hpp
+[7.007s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/launches__builder.hpp
+[7.009s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/launches__struct.hpp
+[7.015s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/launches__traits.hpp
+[7.015s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/launches__type_support.hpp
+[7.019s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__builder.hpp
+[7.022s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__struct.hpp
+[7.023s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__traits.hpp
+[7.029s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__type_support.hpp
+[7.030s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__builder.hpp
+[7.034s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__struct.hpp
+[7.036s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__traits.hpp
+[7.040s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__type_support.hpp
+[7.043s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__builder.hpp
+[7.045s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__struct.hpp
+[7.050s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__traits.hpp
+[7.051s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__type_support.hpp
+[7.054s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_launch__builder.hpp
+[7.055s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_launch__struct.hpp
+[7.061s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_launch__traits.hpp
+[7.063s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_launch__type_support.hpp
+[7.067s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__builder.hpp
+[7.070s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__struct.hpp
+[7.073s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__traits.hpp
+[7.073s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__type_support.hpp
+[7.075s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__builder.hpp
+[7.084s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__struct.hpp
+[7.084s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__traits.hpp
+[7.085s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__type_support.hpp
+[7.088s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__builder.hpp
+[7.091s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__struct.hpp
+[7.092s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__traits.hpp
+[7.101s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__type_support.hpp
+[7.104s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__builder.hpp
+[7.107s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__struct.hpp
+[7.112s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__traits.hpp
+[7.115s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__type_support.hpp
+[7.123s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/get_node_parameters.hpp
+[7.125s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/launches.hpp
+[7.129s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_executables.hpp
+[7.139s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_packages.hpp
+[7.139s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/load_map.hpp
+[7.140s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/manage_launch.hpp
+[7.142s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/manage_node.hpp
+[7.143s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/record_rosbag.hpp
+[7.144s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/save_map.hpp
+[7.145s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/set_node_parameter.hpp
+[7.153s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.156s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[7.157s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/launches__rosidl_typesupport_fastrtps_cpp.hpp
+[7.158s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_fastrtps_cpp.hpp
+[7.158s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_fastrtps_cpp.hpp
+[7.161s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[7.162s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_launch__rosidl_typesupport_fastrtps_cpp.hpp
+[7.163s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_fastrtps_cpp.hpp
+[7.163s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_fastrtps_cpp.hpp
+[7.164s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[7.166s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_fastrtps_cpp.hpp
+[7.170s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_introspection_cpp.hpp
+[7.171s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/launches__rosidl_typesupport_introspection_cpp.hpp
+[7.172s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_introspection_cpp.hpp
+[7.173s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_introspection_cpp.hpp
+[7.174s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[7.176s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_launch__rosidl_typesupport_introspection_cpp.hpp
+[7.177s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_introspection_cpp.hpp
+[7.178s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_introspection_cpp.hpp
+[7.180s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[7.180s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_introspection_cpp.hpp
+[7.183s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/environment/pythonpath.sh
+[7.184s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/environment/pythonpath.dsv
+[7.185s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[7.186s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[7.187s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[7.189s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[7.198s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/__init__.py
+[7.199s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_c.c
+[7.200s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.201s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.202s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/libvizanti_msgs__rosidl_generator_py.so
+[7.204s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/__init__.py
+[7.205s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_get_node_parameters.py
+[7.206s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_get_node_parameters_s.c
+[7.207s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_launches.py
+[7.208s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_launches_s.c
+[7.211s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_executables.py
+[7.212s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_executables_s.c
+[7.214s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_packages.py
+[7.216s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_packages_s.c
+[7.226s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_load_map.py
+[7.227s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_load_map_s.c
+[7.228s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_launch.py
+[7.231s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_launch_s.c
+[7.235s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_node.py
+[7.236s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_node_s.c
+[7.238s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_record_rosbag.py
+[7.240s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_record_rosbag_s.c
+[7.241s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_save_map.py
+[7.245s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_save_map_s.c
+[7.246s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_set_node_parameter.py
+[7.248s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_set_node_parameter_s.c
+[7.252s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.254s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.255s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.257s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.259s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.261s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.262s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters.idl
+[7.265s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter.idl
+[7.267s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap.idl
+[7.271s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap.idl
+[7.276s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/Launches.idl
+[7.276s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag.idl
+[7.277s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode.idl
+[7.278s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageLaunch.idl
+[7.279s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages.idl
+[7.280s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables.idl
+[7.282s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters.srv
+[7.283s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters_Request.msg
+[7.285s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters_Response.msg
+[7.287s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter.srv
+[7.287s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter_Request.msg
+[7.290s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter_Response.msg
+[7.291s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap.srv
+[7.291s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap_Request.msg
+[7.294s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap_Response.msg
+[7.295s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap.srv
+[7.296s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap_Request.msg
+[7.296s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap_Response.msg
+[7.297s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/Launches.srv
+[7.297s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/Launches_Request.msg
+[7.298s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/Launches_Response.msg
+[7.300s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag.srv
+[7.302s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag_Request.msg
+[7.306s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag_Response.msg
+[7.309s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode.srv
+[7.312s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode_Request.msg
+[7.316s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode_Response.msg
+[7.316s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageLaunch.srv
+[7.317s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageLaunch_Request.msg
+[7.318s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ManageLaunch_Response.msg
+[7.318s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages.srv
+[7.319s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages_Request.msg
+[7.319s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages_Response.msg
+[7.320s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables.srv
+[7.320s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables_Request.msg
+[7.321s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables_Response.msg
+[7.321s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/ament_index/resource_index/package_run_dependencies/vizanti_msgs
+[7.322s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/ament_index/resource_index/parent_prefix_path/vizanti_msgs
+[7.322s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/environment/ament_prefix_path.sh
+[7.322s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/environment/ament_prefix_path.dsv
+[7.323s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/environment/path.sh
+[7.323s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/environment/path.dsv
+[7.324s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/local_setup.bash
+[7.324s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/local_setup.sh
+[7.326s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/local_setup.zsh
+[7.327s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/local_setup.dsv
+[7.327s] -- Symlinking: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/package.dsv
+[7.353s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/ament_index/resource_index/packages/vizanti_msgs
+[7.354s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/rosidl_cmake-extras.cmake
+[7.355s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.356s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.360s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.361s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.362s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.363s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.364s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgsConfig.cmake
+[7.364s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgsConfig-version.cmake
+[7.368s] -- Up-to-date symlink: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/package.xml
+[7.368s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_c.so
+[7.376s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_c.so
+[7.376s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_c.so
+[7.386s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_c.so
+[7.387s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.388s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_cpp.so
+[7.388s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_cpp.so
+[7.719s] Listing '/home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs'...
+[7.728s] Listing '/home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv'...
+[7.751s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_py.so
+[7.752s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_cExport.cmake
+[7.752s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.754s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.754s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.755s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.756s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.756s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cExport.cmake
+[7.757s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.758s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_cppExport.cmake
+[7.759s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.760s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.761s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.762s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.767s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cppExport.cmake
+[7.768s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.769s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_pyExport.cmake
+[7.771s] -- Up-to-date: /home/pi/ugv_ws/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.034s] Invoked command in '/home/pi/ugv_ws/build/vizanti_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/vizanti_msgs

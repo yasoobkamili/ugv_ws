@@ -1,0 +1,19 @@
+[6.257s] Invoking command in '/home/pi/ugv_ws/build/ugv_web_app': PYTHONPATH=/home/pi/ugv_ws/build/ugv_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_web_app/build --no-deps symlink_data --force
+[8.453s] running develop
+[9.911s] running egg_info
+[9.913s] writing ugv_web_app.egg-info/PKG-INFO
+[9.915s] writing dependency_links to ugv_web_app.egg-info/dependency_links.txt
+[9.920s] writing entry points to ugv_web_app.egg-info/entry_points.txt
+[9.921s] writing requirements to ugv_web_app.egg-info/requires.txt
+[9.921s] writing top-level names to ugv_web_app.egg-info/top_level.txt
+[9.927s] reading manifest file 'ugv_web_app.egg-info/SOURCES.txt'
+[9.940s] writing manifest file 'ugv_web_app.egg-info/SOURCES.txt'
+[9.963s] running build_ext
+[9.964s] Creating /home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages/ugv-web-app.egg-link (link to .)
+[9.970s] 
+[9.973s] Installed /home/pi/ugv_ws/build/ugv_web_app
+[9.977s] running symlink_data
+[9.978s] symbolically linking /home/pi/ugv_ws/build/ugv_web_app/resource/ugv_web_app -> /home/pi/ugv_ws/install/ugv_web_app/share/ament_index/resource_index/packages
+[9.982s] symbolically linking /home/pi/ugv_ws/build/ugv_web_app/package.xml -> /home/pi/ugv_ws/install/ugv_web_app/share/ugv_web_app
+[9.984s] symbolically linking /home/pi/ugv_ws/build/ugv_web_app/launch/bringup.launch.py -> /home/pi/ugv_ws/install/ugv_web_app/share/ugv_web_app/launch
+[10.162s] Invoked command in '/home/pi/ugv_ws/build/ugv_web_app' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_web_app/build --no-deps symlink_data --force

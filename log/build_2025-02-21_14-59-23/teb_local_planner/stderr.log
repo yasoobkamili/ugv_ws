@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'libteb_local_planner.so'
+gmake[2]: *** [CMakeFiles/teb_local_planner.dir/build.make:652: libteb_local_planner.so] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/teb_local_planner.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,38 @@
+[0.121s] Invoking command in '/home/pi/ugv_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake /home/pi/ugv_ws/src/ugv_else/cartographer -DCMAKE_INSTALL_PREFIX=/home/pi/ugv_ws/install/cartographer
+[0.239s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.286s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.361s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.021s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.044s] -- Added test 'lint_cmake' to check CMake code style
+[2.072s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.103s] -- Added test 'xmllint' to check XML markup files
+[2.199s] -- Configuring done
+[2.372s] -- Generating done
+[2.383s] -- Build files have been written to: /home/pi/ugv_ws/build/cartographer
+[2.393s] Invoked command in '/home/pi/ugv_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake /home/pi/ugv_ws/src/ugv_else/cartographer -DCMAKE_INSTALL_PREFIX=/home/pi/ugv_ws/install/cartographer
+[2.407s] Invoking command in '/home/pi/ugv_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/cartographer -- -j4 -l4
+[2.641s] Invoked command in '/home/pi/ugv_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/cartographer -- -j4 -l4
+[2.649s] Invoking command in '/home/pi/ugv_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/cartographer
+[2.690s] -- Install configuration: ""
+[2.693s] -- Execute custom install script
+[2.695s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/config/localization_2d.lua
+[2.695s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/config/mapping_2d.lua
+[2.697s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/launch/localization.launch.py
+[2.698s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/launch/mapping.launch.py
+[2.708s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/launch/occupancy_grid.launch.py
+[2.712s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/ament_index/resource_index/package_run_dependencies/cartographer
+[2.712s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/ament_index/resource_index/parent_prefix_path/cartographer
+[2.713s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/environment/ament_prefix_path.sh
+[2.713s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/environment/ament_prefix_path.dsv
+[2.713s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/environment/path.sh
+[2.714s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/environment/path.dsv
+[2.714s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/local_setup.bash
+[2.715s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/local_setup.sh
+[2.715s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/local_setup.zsh
+[2.715s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/local_setup.dsv
+[2.716s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/package.dsv
+[2.754s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/ament_index/resource_index/packages/cartographer
+[2.755s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/cmake/cartographerConfig.cmake
+[2.756s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/cmake/cartographerConfig-version.cmake
+[2.757s] -- Up-to-date symlink: /home/pi/ugv_ws/install/cartographer/share/cartographer/package.xml
+[2.764s] Invoked command in '/home/pi/ugv_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/cartographer

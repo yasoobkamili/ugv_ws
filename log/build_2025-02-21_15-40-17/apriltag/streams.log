@@ -1,0 +1,15 @@
+[0.164s] Invoking command in '/home/pi/ugv_ws/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/apriltag -- -j4 -l4
+[0.609s] [  2%] [34m[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx[0m
+[0.664s] [  4%] [34m[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx[0m
+[0.850s] [ 85%] Built target apriltag
+[1.217s] [ 90%] Built target apriltag_demo
+[1.394s] [ 90%] Built target apriltag_py_docstrings
+[1.457s] [ 95%] Built target opencv_demo
+[1.731s] [35m[1mConsolidate compiler generated dependencies of target apriltag.cpython-310-aarch64-linux-gnu[0m
+[2.049s] [ 97%] [32mBuilding C object CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/apriltag_pywrap.c.o[0m
+[4.087s] [100%] [32m[1mLinking C shared module apriltag.cpython-310-aarch64-linux-gnu.so[0m
+[4.378s] gmake[2]: *** Deleting file 'apriltag.cpython-310-aarch64-linux-gnu.so'
+[4.547s] gmake[2]: *** [CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/build.make:99: apriltag.cpython-310-aarch64-linux-gnu.so] Interrupt
+[4.627s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/all] Interrupt
+[4.648s] gmake: *** [Makefile:136: all] Interrupt
+[4.712s] Invoked command in '/home/pi/ugv_ws/build/apriltag' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/apriltag -- -j4 -l4

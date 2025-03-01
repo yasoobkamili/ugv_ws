@@ -1,0 +1,25 @@
+[0.270s] Invoking command in '/home/pi/ugv_ws/build/ugv_base_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ugv_base_node -- -j4 -l4
+[0.877s] [ 50%] Built target base_node
+[1.097s] [100%] Built target base_node_ekf
+[2.908s] Invoked command in '/home/pi/ugv_ws/build/ugv_base_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ugv_base_node -- -j4 -l4
+[2.913s] Invoking command in '/home/pi/ugv_ws/build/ugv_base_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ugv_base_node
+[3.037s] -- Install configuration: ""
+[3.045s] -- Execute custom install script
+[3.047s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/lib/ugv_base_node/base_node
+[3.048s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/lib/ugv_base_node/base_node_ekf
+[3.050s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ament_index/resource_index/package_run_dependencies/ugv_base_node
+[3.060s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ament_index/resource_index/parent_prefix_path/ugv_base_node
+[3.062s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ugv_base_node/environment/ament_prefix_path.sh
+[3.063s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ugv_base_node/environment/ament_prefix_path.dsv
+[3.064s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ugv_base_node/environment/path.sh
+[3.065s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ugv_base_node/environment/path.dsv
+[3.075s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ugv_base_node/local_setup.bash
+[3.076s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ugv_base_node/local_setup.sh
+[3.077s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ugv_base_node/local_setup.zsh
+[3.079s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ugv_base_node/local_setup.dsv
+[3.079s] -- Symlinking: /home/pi/ugv_ws/install/ugv_base_node/share/ugv_base_node/package.dsv
+[3.164s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ament_index/resource_index/packages/ugv_base_node
+[3.166s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ugv_base_node/cmake/ugv_base_nodeConfig.cmake
+[3.167s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ugv_base_node/cmake/ugv_base_nodeConfig-version.cmake
+[3.168s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_base_node/share/ugv_base_node/package.xml
+[3.383s] Invoked command in '/home/pi/ugv_ws/build/ugv_base_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ugv_base_node

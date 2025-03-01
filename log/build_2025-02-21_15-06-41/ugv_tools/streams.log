@@ -1,0 +1,19 @@
+[13.049s] Invoking command in '/home/pi/ugv_ws/build/ugv_tools': PYTHONPATH=/home/pi/ugv_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_tools/build --no-deps symlink_data
+[18.186s] running develop
+[21.892s] running egg_info
+[21.900s] writing ugv_tools.egg-info/PKG-INFO
+[21.909s] writing dependency_links to ugv_tools.egg-info/dependency_links.txt
+[21.911s] writing entry points to ugv_tools.egg-info/entry_points.txt
+[21.913s] writing requirements to ugv_tools.egg-info/requires.txt
+[21.916s] writing top-level names to ugv_tools.egg-info/top_level.txt
+[21.924s] reading manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[21.949s] writing manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[21.957s] running build_ext
+[21.968s] Creating /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv-tools.egg-link (link to .)
+[21.972s] Installing behavior_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[21.974s] Installing joy_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[21.978s] Installing keyboard_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[21.982s] 
+[21.982s] Installed /home/pi/ugv_ws/build/ugv_tools
+[21.984s] running symlink_data
+[22.268s] Invoked command in '/home/pi/ugv_ws/build/ugv_tools' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_tools/build --no-deps symlink_data

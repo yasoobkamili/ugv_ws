@@ -1,0 +1,1 @@
+/home/pi/ugv_ws/build/ldlidar/ament_cmake_core/ldlidarConfig.cmake

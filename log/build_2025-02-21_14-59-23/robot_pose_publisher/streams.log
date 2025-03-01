@@ -1,0 +1,24 @@
+[0.097s] Invoking command in '/home/pi/ugv_ws/build/robot_pose_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/robot_pose_publisher -- -j4 -l4
+[0.897s] [100%] Built target robot_pose_publisher
+[1.051s] Invoked command in '/home/pi/ugv_ws/build/robot_pose_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/robot_pose_publisher -- -j4 -l4
+[1.059s] Invoking command in '/home/pi/ugv_ws/build/robot_pose_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/robot_pose_publisher
+[1.191s] -- Install configuration: ""
+[1.202s] -- Execute custom install script
+[1.210s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/lib/robot_pose_publisher/robot_pose_publisher
+[1.218s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/launch/robot_pose_publisher_launch.py
+[1.227s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/ament_index/resource_index/package_run_dependencies/robot_pose_publisher
+[1.229s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/ament_index/resource_index/parent_prefix_path/robot_pose_publisher
+[1.245s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/environment/ament_prefix_path.sh
+[1.245s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/environment/ament_prefix_path.dsv
+[1.249s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/environment/path.sh
+[1.251s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/environment/path.dsv
+[1.264s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/local_setup.bash
+[1.268s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/local_setup.sh
+[1.268s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/local_setup.zsh
+[1.280s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/local_setup.dsv
+[1.281s] -- Symlinking: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/package.dsv
+[1.333s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/ament_index/resource_index/packages/robot_pose_publisher
+[1.334s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/cmake/robot_pose_publisherConfig.cmake
+[1.335s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/cmake/robot_pose_publisherConfig-version.cmake
+[1.335s] -- Up-to-date symlink: /home/pi/ugv_ws/install/robot_pose_publisher/share/robot_pose_publisher/package.xml
+[1.358s] Invoked command in '/home/pi/ugv_ws/build/robot_pose_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/robot_pose_publisher

@@ -1,0 +1,1 @@
+/home/pi/ugv_ws/build/vizanti_cpp/ament_cmake_core/vizanti_cppConfig.cmake

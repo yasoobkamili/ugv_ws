@@ -1,0 +1,43 @@
+[0.089s] Invoking command in '/home/pi/ugv_ws/build/ugv_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ugv_nav -- -j4 -l4
+[0.525s] Invoked command in '/home/pi/ugv_ws/build/ugv_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ugv_nav -- -j4 -l4
+[0.542s] Invoking command in '/home/pi/ugv_ws/build/ugv_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ugv_nav
+[0.610s] -- Install configuration: ""
+[0.612s] -- Execute custom install script
+[0.617s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/launch/bringup_launch.py
+[0.620s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/launch/nav.launch.py
+[0.624s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/launch/nav_bringup/bringup_launch_cartographer.launch.py
+[0.628s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/launch/nav_bringup/cartographer_localization.launch.py
+[0.632s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/launch/nav_bringup/localization_launch.py
+[0.635s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/launch/nav_bringup/nav2_bringup.launch.py
+[0.639s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/launch/nav_rtabmap.launch.py
+[0.643s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/launch/rtabmap_localization_launch.py
+[0.646s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/launch/slam_nav.launch.py
+[0.651s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/param/amcl_dwa.yaml
+[0.654s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/param/amcl_teb.yaml
+[0.658s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/param/emcl_dwa.yaml
+[0.662s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/param/emcl_teb.yaml
+[0.666s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/param/rtabmap_dwa.yaml
+[0.670s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/param/rtabmap_teb.yaml
+[0.675s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/param/slam_nav.yaml
+[0.680s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/maps/map.pbstream
+[0.684s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/maps/map.pgm
+[0.689s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/maps/map.yaml
+[0.694s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/maps/map_server_params.yaml
+[0.699s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/rviz/view_nav_2d.rviz
+[0.703s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/rviz/view_nav_3d.rviz
+[0.708s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ament_index/resource_index/package_run_dependencies/ugv_nav
+[0.712s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ament_index/resource_index/parent_prefix_path/ugv_nav
+[0.716s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/environment/ament_prefix_path.sh
+[0.720s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/environment/ament_prefix_path.dsv
+[0.725s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/environment/path.sh
+[0.729s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/environment/path.dsv
+[0.743s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/local_setup.bash
+[0.747s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/local_setup.sh
+[0.751s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/local_setup.zsh
+[0.761s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/local_setup.dsv
+[0.768s] -- Symlinking: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/package.dsv
+[0.883s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ament_index/resource_index/packages/ugv_nav
+[0.891s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/cmake/ugv_navConfig.cmake
+[0.896s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/cmake/ugv_navConfig-version.cmake
+[0.902s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_nav/share/ugv_nav/package.xml
+[0.924s] Invoked command in '/home/pi/ugv_ws/build/ugv_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ugv_nav

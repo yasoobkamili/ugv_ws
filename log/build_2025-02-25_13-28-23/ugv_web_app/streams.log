@@ -1,0 +1,16 @@
+[5.078s] Invoking command in '/home/pi/ugv_ws/build/ugv_web_app': PYTHONPATH=/home/pi/ugv_ws/build/ugv_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_web_app/build --no-deps symlink_data
+[6.755s] running develop
+[7.632s] running egg_info
+[7.633s] writing ugv_web_app.egg-info/PKG-INFO
+[7.634s] writing dependency_links to ugv_web_app.egg-info/dependency_links.txt
+[7.636s] writing entry points to ugv_web_app.egg-info/entry_points.txt
+[7.636s] writing requirements to ugv_web_app.egg-info/requires.txt
+[7.638s] writing top-level names to ugv_web_app.egg-info/top_level.txt
+[7.646s] reading manifest file 'ugv_web_app.egg-info/SOURCES.txt'
+[7.650s] writing manifest file 'ugv_web_app.egg-info/SOURCES.txt'
+[7.657s] running build_ext
+[7.658s] Creating /home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages/ugv-web-app.egg-link (link to .)
+[7.662s] 
+[7.662s] Installed /home/pi/ugv_ws/build/ugv_web_app
+[7.663s] running symlink_data
+[7.806s] Invoked command in '/home/pi/ugv_ws/build/ugv_web_app' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_web_app/build --no-deps symlink_data

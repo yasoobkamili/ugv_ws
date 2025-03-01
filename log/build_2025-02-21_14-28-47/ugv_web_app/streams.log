@@ -1,0 +1,25 @@
+[5.456s] Invoking command in '/home/pi/ugv_ws/build/ugv_web_app': PYTHONPATH=/home/pi/ugv_ws/build/ugv_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_web_app/build --no-deps symlink_data
+[7.739s] running develop
+[9.441s] running egg_info
+[9.442s] creating ugv_web_app.egg-info
+[9.445s] writing ugv_web_app.egg-info/PKG-INFO
+[9.448s] writing dependency_links to ugv_web_app.egg-info/dependency_links.txt
+[9.450s] writing entry points to ugv_web_app.egg-info/entry_points.txt
+[9.452s] writing requirements to ugv_web_app.egg-info/requires.txt
+[9.454s] writing top-level names to ugv_web_app.egg-info/top_level.txt
+[9.457s] writing manifest file 'ugv_web_app.egg-info/SOURCES.txt'
+[9.469s] reading manifest file 'ugv_web_app.egg-info/SOURCES.txt'
+[9.474s] writing manifest file 'ugv_web_app.egg-info/SOURCES.txt'
+[9.484s] running build_ext
+[9.485s] Creating /home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages/ugv-web-app.egg-link (link to .)
+[9.491s] 
+[9.492s] Installed /home/pi/ugv_ws/build/ugv_web_app
+[9.493s] running symlink_data
+[9.494s] creating /home/pi/ugv_ws/install/ugv_web_app/share/ament_index
+[9.495s] creating /home/pi/ugv_ws/install/ugv_web_app/share/ament_index/resource_index
+[9.496s] creating /home/pi/ugv_ws/install/ugv_web_app/share/ament_index/resource_index/packages
+[9.497s] symbolically linking /home/pi/ugv_ws/build/ugv_web_app/resource/ugv_web_app -> /home/pi/ugv_ws/install/ugv_web_app/share/ament_index/resource_index/packages
+[9.497s] symbolically linking /home/pi/ugv_ws/build/ugv_web_app/package.xml -> /home/pi/ugv_ws/install/ugv_web_app/share/ugv_web_app
+[9.498s] creating /home/pi/ugv_ws/install/ugv_web_app/share/ugv_web_app/launch
+[9.501s] symbolically linking /home/pi/ugv_ws/build/ugv_web_app/launch/bringup.launch.py -> /home/pi/ugv_ws/install/ugv_web_app/share/ugv_web_app/launch
+[9.688s] Invoked command in '/home/pi/ugv_ws/build/ugv_web_app' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_web_app/build --no-deps symlink_data

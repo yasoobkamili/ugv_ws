@@ -1,0 +1,23 @@
+[4.985s] Invoking command in '/home/pi/ugv_ws/build/ugv_vision': PYTHONPATH=/home/pi/ugv_ws/build/ugv_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_vision/build --no-deps symlink_data
+[7.209s] running develop
+[8.881s] running egg_info
+[8.882s] writing ugv_vision.egg-info/PKG-INFO
+[8.884s] writing dependency_links to ugv_vision.egg-info/dependency_links.txt
+[8.887s] writing entry points to ugv_vision.egg-info/entry_points.txt
+[8.888s] writing requirements to ugv_vision.egg-info/requires.txt
+[8.888s] writing top-level names to ugv_vision.egg-info/top_level.txt
+[8.905s] reading manifest file 'ugv_vision.egg-info/SOURCES.txt'
+[8.910s] writing manifest file 'ugv_vision.egg-info/SOURCES.txt'
+[8.919s] running build_ext
+[8.919s] Creating /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv-vision.egg-link (link to .)
+[8.924s] Installing apriltag_ctrl script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[8.925s] Installing apriltag_track_0 script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[8.927s] Installing apriltag_track_1 script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[8.933s] Installing apriltag_track_2 script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[8.934s] Installing color_track script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[8.934s] Installing gesture_ctrl script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[8.935s] Installing kcf_track script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[8.935s] 
+[8.936s] Installed /home/pi/ugv_ws/build/ugv_vision
+[8.937s] running symlink_data
+[9.188s] Invoked command in '/home/pi/ugv_ws/build/ugv_vision' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_vision/build --no-deps symlink_data

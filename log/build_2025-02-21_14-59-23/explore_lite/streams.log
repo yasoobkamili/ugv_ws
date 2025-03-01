@@ -1,0 +1,34 @@
+[0.066s] Invoking command in '/home/pi/ugv_ws/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/explore_lite -- -j4 -l4
+[0.653s] [ 30%] Built target gtest
+[0.656s] [ 40%] Built target gtest_main
+[0.837s] [ 80%] Built target explore
+[0.962s] [100%] Built target test_explore
+[1.070s] Invoked command in '/home/pi/ugv_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/explore_lite -- -j4 -l4
+[1.071s] Invoking command in '/home/pi/ugv_ws/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/explore_lite
+[1.126s] -- Install configuration: ""
+[1.128s] -- Execute custom install script
+[1.143s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/include/explore//costmap_client.h
+[1.145s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/include/explore//costmap_tools.h
+[1.147s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/include/explore//explore.h
+[1.149s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/include/explore//frontier_search.h
+[1.151s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[1.151s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[1.163s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[1.165s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/lib/explore_lite/explore
+[1.167s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[1.169s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[1.171s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[1.171s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[1.174s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[1.196s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[1.202s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[1.204s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[1.204s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[1.205s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[1.206s] -- Symlinking: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/package.dsv
+[1.288s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[1.290s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.292s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[1.293s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[1.293s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/package.xml
+[1.308s] Invoked command in '/home/pi/ugv_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/explore_lite

@@ -1,0 +1,74 @@
+[8.524s] Invoking command in '/home/pi/ugv_ws/build/ugv_vision': PYTHONPATH=/home/pi/ugv_ws/build/ugv_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/ugv_ws/build/ugv_vision/build
+[12.476s] running develop
+[14.002s] Removing /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv-vision.egg-link (link to .)
+[14.186s] Invoked command in '/home/pi/ugv_ws/build/ugv_vision' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/ugv_ws/build/ugv_vision/build
+[14.207s] Invoking command in '/home/pi/ugv_ws/src/ugv_main/ugv_vision': PYTHONPATH=/home/pi/ugv_ws/build/ugv_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ugv_vision build --build-base /home/pi/ugv_ws/build/ugv_vision/build install --record /home/pi/ugv_ws/build/ugv_vision/install.log --single-version-externally-managed install_data --force
+[16.744s] running egg_info
+[16.756s] writing ../../../build/ugv_vision/ugv_vision.egg-info/PKG-INFO
+[16.759s] writing dependency_links to ../../../build/ugv_vision/ugv_vision.egg-info/dependency_links.txt
+[16.761s] writing entry points to ../../../build/ugv_vision/ugv_vision.egg-info/entry_points.txt
+[16.763s] writing requirements to ../../../build/ugv_vision/ugv_vision.egg-info/requires.txt
+[16.765s] writing top-level names to ../../../build/ugv_vision/ugv_vision.egg-info/top_level.txt
+[16.776s] reading manifest file '../../../build/ugv_vision/ugv_vision.egg-info/SOURCES.txt'
+[16.784s] writing manifest file '../../../build/ugv_vision/ugv_vision.egg-info/SOURCES.txt'
+[16.787s] running build
+[16.788s] running build_py
+[16.790s] creating /home/pi/ugv_ws/build/ugv_vision/build
+[16.791s] creating /home/pi/ugv_ws/build/ugv_vision/build/lib
+[16.793s] creating /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision
+[16.794s] copying ugv_vision/color_track.py -> /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision
+[16.797s] copying ugv_vision/apriltag_ctrl.py -> /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision
+[16.799s] copying ugv_vision/apriltag_track_0.py -> /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision
+[16.801s] copying ugv_vision/gesture.py -> /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision
+[16.803s] copying ugv_vision/__init__.py -> /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision
+[16.805s] copying ugv_vision/apriltag_track_1.py -> /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision
+[16.807s] copying ugv_vision/hsv.py -> /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision
+[16.809s] copying ugv_vision/apriltag_track_2.py -> /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision
+[16.810s] copying ugv_vision/gesture_ctrl.py -> /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision
+[16.813s] copying ugv_vision/apriltag.py -> /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision
+[16.821s] running install
+[16.824s] running install_lib
+[16.829s] creating /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision
+[16.831s] copying /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision/color_track.py -> /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision
+[16.833s] copying /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision/apriltag_ctrl.py -> /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision
+[16.834s] copying /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision/apriltag_track_0.py -> /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision
+[16.835s] copying /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision/gesture.py -> /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision
+[16.836s] copying /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision/__init__.py -> /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision
+[16.837s] copying /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision/apriltag_track_1.py -> /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision
+[16.838s] copying /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision/hsv.py -> /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision
+[16.839s] copying /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision/apriltag_track_2.py -> /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision
+[16.839s] copying /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision/gesture_ctrl.py -> /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision
+[16.840s] copying /home/pi/ugv_ws/build/ugv_vision/build/lib/ugv_vision/apriltag.py -> /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision
+[16.844s] byte-compiling /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision/color_track.py to color_track.cpython-310.pyc
+[16.850s] byte-compiling /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision/apriltag_ctrl.py to apriltag_ctrl.cpython-310.pyc
+[16.854s] byte-compiling /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision/apriltag_track_0.py to apriltag_track_0.cpython-310.pyc
+[16.858s] byte-compiling /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision/gesture.py to gesture.cpython-310.pyc
+[16.861s] byte-compiling /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision/__init__.py to __init__.cpython-310.pyc
+[16.862s] byte-compiling /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision/apriltag_track_1.py to apriltag_track_1.cpython-310.pyc
+[16.866s] byte-compiling /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision/hsv.py to hsv.cpython-310.pyc
+[16.869s] byte-compiling /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision/apriltag_track_2.py to apriltag_track_2.cpython-310.pyc
+[16.872s] byte-compiling /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision/gesture_ctrl.py to gesture_ctrl.cpython-310.pyc
+[16.877s] byte-compiling /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision/apriltag.py to apriltag.cpython-310.pyc
+[16.880s] running install_data
+[16.881s] copying resource/ugv_vision -> /home/pi/ugv_ws/install/ugv_vision/share/ament_index/resource_index/packages
+[16.881s] copying package.xml -> /home/pi/ugv_ws/install/ugv_vision/share/ugv_vision
+[16.882s] copying launch/oak_d_lite.launch.py -> /home/pi/ugv_ws/install/ugv_vision/share/ugv_vision/launch
+[16.883s] copying launch/apriltag_track.launch.py -> /home/pi/ugv_ws/install/ugv_vision/share/ugv_vision/launch
+[16.885s] copying launch/stereo.launch.py -> /home/pi/ugv_ws/install/ugv_vision/share/ugv_vision/launch
+[16.886s] copying launch/camera.launch.py -> /home/pi/ugv_ws/install/ugv_vision/share/ugv_vision/launch
+[16.887s] copying config/camera_info.yaml -> /home/pi/ugv_ws/install/ugv_vision/share/ugv_vision/config
+[16.888s] copying config/stereo.yaml -> /home/pi/ugv_ws/install/ugv_vision/share/ugv_vision/config
+[16.889s] copying config/params.yaml -> /home/pi/ugv_ws/install/ugv_vision/share/ugv_vision/config
+[16.890s] copying config/oak_d_lite.yaml -> /home/pi/ugv_ws/install/ugv_vision/share/ugv_vision/config
+[16.891s] running install_egg_info
+[16.908s] Copying ../../../build/ugv_vision/ugv_vision.egg-info to /home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages/ugv_vision-0.0.0-py3.10.egg-info
+[16.945s] running install_scripts
+[17.075s] Installing apriltag_ctrl script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[17.077s] Installing apriltag_track_0 script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[17.104s] Installing apriltag_track_1 script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[17.104s] Installing apriltag_track_2 script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[17.105s] Installing color_track script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[17.105s] Installing gesture_ctrl script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[17.106s] Installing kcf_track script to /home/pi/ugv_ws/install/ugv_vision/lib/ugv_vision
+[17.106s] writing list of installed files to '/home/pi/ugv_ws/build/ugv_vision/install.log'
+[17.305s] Invoked command in '/home/pi/ugv_ws/src/ugv_main/ugv_vision' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ugv_vision build --build-base /home/pi/ugv_ws/build/ugv_vision/build install --record /home/pi/ugv_ws/build/ugv_vision/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,1 @@
+/home/pi/ugv_ws/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.zsh

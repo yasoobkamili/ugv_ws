@@ -1,0 +1,13 @@
+[  2%] [34m[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx[0m
+[  4%] [34m[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx[0m
+[ 85%] Built target apriltag
+[ 90%] Built target apriltag_demo
+[ 90%] Built target apriltag_py_docstrings
+[ 95%] Built target opencv_demo
+[35m[1mConsolidate compiler generated dependencies of target apriltag.cpython-310-aarch64-linux-gnu[0m
+[ 97%] [32mBuilding C object CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/apriltag_pywrap.c.o[0m
+[100%] [32m[1mLinking C shared module apriltag.cpython-310-aarch64-linux-gnu.so[0m
+gmake[2]: *** Deleting file 'apriltag.cpython-310-aarch64-linux-gnu.so'
+gmake[2]: *** [CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/build.make:99: apriltag.cpython-310-aarch64-linux-gnu.so] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/all] Interrupt
+gmake: *** [Makefile:136: all] Interrupt

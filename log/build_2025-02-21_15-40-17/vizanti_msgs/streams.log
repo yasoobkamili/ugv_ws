@@ -1,0 +1,53 @@
+[0.192s] Invoking command in '/home/pi/ugv_ws/build/vizanti_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/vizanti_msgs -- -j4 -l4
+[0.791s] [  0%] Built target vizanti_msgs__cpp
+[0.990s] [  0%] Built target ament_cmake_python_symlink_vizanti_msgs
+[1.013s] [ 12%] Built target vizanti_msgs__rosidl_generator_c
+[1.303s] [ 24%] Built target vizanti_msgs__rosidl_typesupport_cpp
+[1.369s] [ 35%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_cpp
+[1.637s] [ 47%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_c
+[1.733s] [ 59%] Built target vizanti_msgs__rosidl_typesupport_introspection_cpp
+[1.751s] [ 70%] Built target vizanti_msgs__rosidl_typesupport_c
+[2.010s] [ 82%] Built target vizanti_msgs__rosidl_typesupport_introspection_c
+[2.446s] [ 82%] Built target vizanti_msgs
+[2.814s] [ 83%] Built target vizanti_msgs__py
+[3.336s] [ 94%] Built target vizanti_msgs__rosidl_generator_py
+[3.691s] [ 96%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.749s] [ 98%] Built target vizanti_msgs__rosidl_typesupport_c__pyext
+[3.810s] [100%] Built target vizanti_msgs__rosidl_typesupport_introspection_c__pyext
+[4.458s] Traceback (most recent call last):
+[4.478s]   File "/home/pi/ugv_ws/build/vizanti_msgs/ament_cmake_python/vizanti_msgs/setup.py", line 1, in <module>
+[4.502s]     from setuptools import find_packages
+[4.552s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[4.556s]     import setuptools.version
+[4.565s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[4.587s]     import pkg_resources
+[4.590s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[4.699s]     def _initialize_master_working_set():
+[4.700s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[4.723s]     f(*args, **kwargs)
+[4.724s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[4.725s]     working_set = WorkingSet._build_master()
+[4.725s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[4.726s]     ws = cls()
+[4.739s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[4.740s]     self.add_entry(entry)
+[4.741s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[4.742s]     for dist in find_distributions(entry, True):
+[4.743s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[4.752s]     for dist in factory(fullpath):
+[4.753s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+[4.777s]     yield Distribution.from_location(
+[4.779s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2603, in from_location
+[4.780s]     return cls(
+[4.782s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2584, in __init__
+[4.782s]     self._version = safe_version(version)
+[4.784s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1323, in safe_version
+[4.785s]     return str(packaging.version.Version(version))
+[4.786s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 312, in __str__
+[4.803s]     if self.dev is not None:
+[4.806s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 340, in dev
+[4.810s]     @property
+[4.814s] KeyboardInterrupt
+[4.833s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_vizanti_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_vizanti_msgs_egg] Interrupt
+[4.834s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_vizanti_msgs_egg.dir/all] Interrupt
+[4.835s] gmake: *** [Makefile:146: all] Interrupt

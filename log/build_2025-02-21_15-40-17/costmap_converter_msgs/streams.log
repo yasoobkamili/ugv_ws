@@ -1,0 +1,43 @@
+[0.170s] Invoking command in '/home/pi/ugv_ws/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/costmap_converter_msgs -- -j4 -l4
+[1.027s] [  2%] Built target costmap_converter_msgs__cpp
+[1.040s] [ 12%] Built target costmap_converter_msgs__rosidl_generator_c
+[1.159s] [ 12%] Built target ament_cmake_python_symlink_costmap_converter_msgs
+[1.442s] [ 23%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp
+[1.554s] [ 33%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_cpp
+[1.633s] [ 43%] Built target costmap_converter_msgs__rosidl_typesupport_cpp
+[1.811s] [ 53%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c
+[1.869s] [ 64%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c
+[1.907s] [ 74%] Built target costmap_converter_msgs__rosidl_typesupport_c
+[2.218s] [ 74%] Built target costmap_converter_msgs
+[2.564s] [ 76%] Built target costmap_converter_msgs__py
+[2.815s] [ 84%] Built target costmap_converter_msgs__rosidl_generator_py
+[3.154s] [ 89%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.247s] [ 94%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext
+[3.325s] [100%] Built target costmap_converter_msgs__rosidl_typesupport_c__pyext
+[4.483s] Traceback (most recent call last):
+[4.495s]   File "/home/pi/ugv_ws/build/costmap_converter_msgs/ament_cmake_python/costmap_converter_msgs/setup.py", line 1, in <module>
+[4.502s]     from setuptools import find_packages
+[4.518s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[4.547s]     import setuptools.version
+[4.559s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[4.560s]     import pkg_resources
+[4.565s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[4.567s]     def _initialize_master_working_set():
+[4.568s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[4.570s]     f(*args, **kwargs)
+[4.571s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[4.582s]     working_set = WorkingSet._build_master()
+[4.583s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[4.583s]     ws = cls()
+[4.584s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[4.585s]     self.add_entry(entry)
+[4.586s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[4.586s]     for dist in find_distributions(entry, True):
+[4.587s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[4.588s]     for dist in factory(fullpath):
+[4.588s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2135, in distributions_from_metadata
+[4.589s]     if len(os.listdir(path)) == 0:
+[4.590s] KeyboardInterrupt
+[4.685s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_costmap_converter_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_costmap_converter_msgs_egg] Interrupt
+[4.689s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_costmap_converter_msgs_egg.dir/all] Interrupt
+[4.693s] gmake: *** [Makefile:146: all] Interrupt

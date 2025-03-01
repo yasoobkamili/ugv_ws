@@ -1,0 +1,68 @@
+[0.212s] Invoking command in '/home/pi/ugv_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/openslam_gmapping -- -j4 -l4
+[0.650s] [ 13%] Built target utils
+[0.755s] [ 27%] Built target sensor_base
+[1.068s] [ 40%] Built target sensor_odometry
+[1.090s] [ 54%] Built target sensor_range
+[1.389s] [ 77%] Built target scanmatcher
+[1.636s] [100%] Built target gridfastslam
+[2.176s] Invoked command in '/home/pi/ugv_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/openslam_gmapping -- -j4 -l4
+[2.183s] Invoking command in '/home/pi/ugv_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/openslam_gmapping
+[2.342s] -- Install configuration: ""
+[2.344s] -- Execute custom install script
+[2.345s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/lib/libgridfastslam.a
+[2.346s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/lib/libscanmatcher.a
+[2.346s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/lib/libsensor_base.a
+[2.347s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[2.363s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[2.364s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[2.366s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[2.368s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/lib/libsensor_odometry.a
+[2.369s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/lib/libsensor_range.a
+[2.376s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/lib/libutils.a
+[2.378s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[2.378s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[2.379s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[2.380s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[2.404s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[2.404s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[2.405s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[2.406s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/grid/map.h
+[2.406s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[2.407s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[2.408s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[2.415s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/log/configuration.h
+[2.416s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[2.417s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[2.421s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[2.422s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[2.423s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[2.435s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[2.435s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[2.437s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[2.438s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[2.439s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[2.440s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[2.441s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[2.442s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[2.443s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[2.445s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[2.446s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/utils/point.h
+[2.446s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/include//gmapping/utils/stat.h
+[2.447s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[2.447s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[2.448s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[2.460s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[2.461s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[2.462s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[2.462s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[2.463s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[2.464s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[2.464s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[2.465s] -- Symlinking: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[2.465s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[2.466s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[2.466s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.467s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[2.468s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[2.468s] -- Up-to-date symlink: /home/pi/ugv_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[2.610s] Invoked command in '/home/pi/ugv_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/openslam_gmapping

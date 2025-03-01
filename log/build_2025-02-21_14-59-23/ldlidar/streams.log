@@ -1,0 +1,32 @@
+[0.083s] Invoking command in '/home/pi/ugv_ws/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ldlidar -- -j4 -l4
+[0.817s] [100%] Built target ldlidar_node
+[0.941s] Invoked command in '/home/pi/ugv_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ldlidar -- -j4 -l4
+[0.946s] Invoking command in '/home/pi/ugv_ws/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ldlidar
+[1.038s] -- Install configuration: ""
+[1.039s] -- Execute custom install script
+[1.040s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/lib/ldlidar/ldlidar_node
+[1.040s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/ld06.launch.py
+[1.041s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/ld19.launch.py
+[1.041s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/ldlidar.launch.py
+[1.041s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/stl27l.launch.py
+[1.042s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/viewer_ld06.launch.py
+[1.042s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/viewer_ld19.launch.py
+[1.042s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/viewer_ldlidar.launch.py
+[1.048s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/viewer_stl27l.launch.py
+[1.049s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//rviz/view.rviz
+[1.052s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar
+[1.060s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar
+[1.062s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh
+[1.065s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv
+[1.066s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/environment/path.sh
+[1.073s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/environment/path.dsv
+[1.076s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/local_setup.bash
+[1.076s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/local_setup.sh
+[1.084s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/local_setup.zsh
+[1.085s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/local_setup.dsv
+[1.086s] -- Symlinking: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/package.dsv
+[1.206s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ament_index/resource_index/packages/ldlidar
+[1.207s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake
+[1.208s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake
+[1.210s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/package.xml
+[1.217s] Invoked command in '/home/pi/ugv_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ldlidar

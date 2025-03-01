@@ -1,0 +1,34 @@
+[0.286s] Invoking command in '/home/pi/ugv_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/explore_lite -- -j4 -l4
+[1.253s] [ 20%] Built target gtest_main
+[1.262s] [ 40%] Built target gtest
+[1.402s] [ 80%] Built target explore
+[1.606s] [100%] Built target test_explore
+[1.746s] Invoked command in '/home/pi/ugv_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/explore_lite -- -j4 -l4
+[1.768s] Invoking command in '/home/pi/ugv_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/explore_lite
+[1.902s] -- Install configuration: ""
+[1.906s] -- Execute custom install script
+[1.908s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/include/explore//costmap_client.h
+[1.910s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/include/explore//costmap_tools.h
+[1.912s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/include/explore//explore.h
+[1.913s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/include/explore//frontier_search.h
+[1.915s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[1.925s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[1.927s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[1.930s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/lib/explore_lite/explore
+[1.931s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[1.934s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[1.937s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[1.952s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[1.953s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[1.960s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[1.961s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[1.967s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[1.970s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[1.974s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[1.980s] -- Symlinking: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/package.dsv
+[2.078s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[2.079s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.081s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[2.082s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[2.083s] -- Up-to-date symlink: /home/pi/ugv_ws/install/explore_lite/share/explore_lite/package.xml
+[2.098s] Invoked command in '/home/pi/ugv_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/explore_lite

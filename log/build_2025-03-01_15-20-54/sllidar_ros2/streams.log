@@ -1,0 +1,52 @@
+[0.461s] Invoking command in '/home/pi/ugv_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/sllidar_ros2 -- -j4 -l4
+[1.219s] [ 90%] Built target sllidar_node
+[1.492s] [100%] Built target sllidar_client
+[6.108s] Invoked command in '/home/pi/ugv_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/sllidar_ros2 -- -j4 -l4
+[6.113s] Invoking command in '/home/pi/ugv_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/sllidar_ros2
+[6.210s] -- Install configuration: ""
+[6.210s] -- Execute custom install script
+[6.211s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[6.211s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch.py
+[6.212s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[6.212s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[6.213s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[6.213s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[6.214s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[6.219s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[6.222s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[6.223s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[6.226s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[6.227s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[6.228s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[6.237s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[6.237s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[6.239s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[6.240s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[6.258s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[6.258s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[6.259s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[6.259s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[6.259s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[6.260s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[6.260s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[6.262s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[6.269s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[6.274s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[6.274s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[6.275s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[6.278s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[6.281s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[6.282s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[6.285s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[6.288s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[6.289s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[6.293s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[6.295s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[6.295s] -- Symlinking: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[6.400s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[6.401s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.408s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.409s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[6.412s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[6.414s] -- Up-to-date symlink: /home/pi/ugv_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[6.677s] Invoked command in '/home/pi/ugv_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/sllidar_ros2

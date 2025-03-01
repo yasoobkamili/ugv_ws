@@ -1,0 +1,10 @@
+/home/pi/ugv_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/GetNodeParameters.idl
+/home/pi/ugv_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/SetNodeParameter.idl
+/home/pi/ugv_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/SaveMap.idl
+/home/pi/ugv_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/LoadMap.idl
+/home/pi/ugv_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/Launches.idl
+/home/pi/ugv_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/RecordRosbag.idl
+/home/pi/ugv_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/ManageNode.idl
+/home/pi/ugv_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/ManageLaunch.idl
+/home/pi/ugv_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/ListPackages.idl
+/home/pi/ugv_ws/build/vizanti_msgs/rosidl_adapter/vizanti_msgs:srv/ListExecutables.idl

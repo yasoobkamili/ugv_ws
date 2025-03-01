@@ -1,0 +1,1 @@
+/home/pi/ugv_ws/src/ugv_else/vizanti/vizanti_server/public/templates/button/button_script.js

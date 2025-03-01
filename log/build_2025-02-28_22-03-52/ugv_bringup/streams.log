@@ -1,0 +1,46 @@
+[10.566s] Invoking command in '/home/pi/ugv_ws/build/ugv_bringup': PYTHONPATH=/home/pi/ugv_ws/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/ugv_ws/build/ugv_bringup/build
+[12.078s] running develop
+[13.400s] Removing /home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages/ugv-bringup.egg-link (link to .)
+[13.737s] Invoked command in '/home/pi/ugv_ws/build/ugv_bringup' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pi/ugv_ws/build/ugv_bringup/build
+[13.739s] Invoking command in '/home/pi/ugv_ws/src/ugv_main/ugv_bringup': PYTHONPATH=/home/pi/ugv_ws/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ugv_bringup build --build-base /home/pi/ugv_ws/build/ugv_bringup/build install --record /home/pi/ugv_ws/build/ugv_bringup/install.log --single-version-externally-managed install_data --force
+[15.919s] running egg_info
+[15.923s] writing ../../../build/ugv_bringup/ugv_bringup.egg-info/PKG-INFO
+[15.924s] writing dependency_links to ../../../build/ugv_bringup/ugv_bringup.egg-info/dependency_links.txt
+[15.926s] writing entry points to ../../../build/ugv_bringup/ugv_bringup.egg-info/entry_points.txt
+[15.927s] writing requirements to ../../../build/ugv_bringup/ugv_bringup.egg-info/requires.txt
+[15.928s] writing top-level names to ../../../build/ugv_bringup/ugv_bringup.egg-info/top_level.txt
+[15.945s] reading manifest file '../../../build/ugv_bringup/ugv_bringup.egg-info/SOURCES.txt'
+[15.950s] writing manifest file '../../../build/ugv_bringup/ugv_bringup.egg-info/SOURCES.txt'
+[15.951s] running build
+[15.951s] running build_py
+[15.952s] creating /home/pi/ugv_ws/build/ugv_bringup/build
+[15.954s] creating /home/pi/ugv_ws/build/ugv_bringup/build/lib
+[15.954s] creating /home/pi/ugv_ws/build/ugv_bringup/build/lib/ugv_bringup
+[15.956s] copying ugv_bringup/ugv_driver.py -> /home/pi/ugv_ws/build/ugv_bringup/build/lib/ugv_bringup
+[15.962s] copying ugv_bringup/__init__.py -> /home/pi/ugv_ws/build/ugv_bringup/build/lib/ugv_bringup
+[15.963s] copying ugv_bringup/ugv_bringup.py -> /home/pi/ugv_ws/build/ugv_bringup/build/lib/ugv_bringup
+[15.970s] running install
+[15.971s] running install_lib
+[15.978s] creating /home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages/ugv_bringup
+[15.979s] copying /home/pi/ugv_ws/build/ugv_bringup/build/lib/ugv_bringup/ugv_driver.py -> /home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages/ugv_bringup
+[15.979s] copying /home/pi/ugv_ws/build/ugv_bringup/build/lib/ugv_bringup/__init__.py -> /home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages/ugv_bringup
+[15.980s] copying /home/pi/ugv_ws/build/ugv_bringup/build/lib/ugv_bringup/ugv_bringup.py -> /home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages/ugv_bringup
+[15.981s] byte-compiling /home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages/ugv_bringup/ugv_driver.py to ugv_driver.cpython-310.pyc
+[15.985s] byte-compiling /home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages/ugv_bringup/__init__.py to __init__.cpython-310.pyc
+[15.986s] byte-compiling /home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages/ugv_bringup/ugv_bringup.py to ugv_bringup.cpython-310.pyc
+[15.994s] running install_data
+[15.995s] copying resource/ugv_bringup -> /home/pi/ugv_ws/install/ugv_bringup/share/ament_index/resource_index/packages
+[15.996s] copying package.xml -> /home/pi/ugv_ws/install/ugv_bringup/share/ugv_bringup
+[15.996s] copying launch/bringup_imu_origin.launch.py -> /home/pi/ugv_ws/install/ugv_bringup/share/ugv_bringup/launch
+[15.997s] copying launch/bringup_lidar.launch.py -> /home/pi/ugv_ws/install/ugv_bringup/share/ugv_bringup/launch
+[15.998s] copying launch/bringup_imu_ekf.launch.py -> /home/pi/ugv_ws/install/ugv_bringup/share/ugv_bringup/launch
+[15.999s] copying rviz/view_bringup.rviz -> /home/pi/ugv_ws/install/ugv_bringup/share/ugv_bringup/rviz
+[16.002s] copying param/ekf.yaml -> /home/pi/ugv_ws/install/ugv_bringup/share/ugv_bringup/param
+[16.014s] copying param/imu_filter_param.yaml -> /home/pi/ugv_ws/install/ugv_bringup/share/ugv_bringup/param
+[16.014s] running install_egg_info
+[16.015s] Copying ../../../build/ugv_bringup/ugv_bringup.egg-info to /home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages/ugv_bringup-0.0.0-py3.10.egg-info
+[16.043s] running install_scripts
+[16.190s] Installing ugv_bringup script to /home/pi/ugv_ws/install/ugv_bringup/lib/ugv_bringup
+[16.195s] Installing ugv_driver script to /home/pi/ugv_ws/install/ugv_bringup/lib/ugv_bringup
+[16.203s] writing list of installed files to '/home/pi/ugv_ws/build/ugv_bringup/install.log'
+[16.660s] Invoked command in '/home/pi/ugv_ws/src/ugv_main/ugv_bringup' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ugv_bringup build --build-base /home/pi/ugv_ws/build/ugv_bringup/build install --record /home/pi/ugv_ws/build/ugv_bringup/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,242 @@
+[0.177s] Invoking command in '/home/pi/ugv_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/ugv_ws/build/costmap_converter -- -j4 -l4
+[0.895s] [35m[1mConsolidate compiler generated dependencies of target costmap_converter[0m
+[0.896s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.896s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.045s] [ 10%] Built target gtest_main
+[1.110s] [ 21%] Built target gtest
+[1.558s] [ 26%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_polygons.cpp.o[0m
+[1.606s] [ 31%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_polygons_concave.cpp.o[0m
+[1.624s] [ 36%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_lines_convex_hull.cpp.o[0m
+[1.693s] [ 42%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_lines_ransac.cpp.o[0m
+[38.916s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[38.917s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[38.918s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[38.919s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[38.920s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[38.921s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[38.922s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[38.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[38.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[38.929s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[38.930s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[38.930s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:42[m[K,
+[38.931s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_polygons.cpp:39[m[K:
+[38.932s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[38.933s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[38.952s]   314 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[38.956s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[38.962s] In file included from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:43[m[K,
+[38.966s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_polygons.cpp:39[m[K:
+[38.975s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[38.979s]   314 | apToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[38.982s]       |                                                                                 [01;36m[K~^[m[K
+[38.985s]       |                                                                                  [01;36m[K|[m[K
+[38.988s]       |                                                                                  [01;36m[Kchar*[m[K
+[38.992s] 
+[42.578s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[42.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[42.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[42.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[42.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[42.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[42.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[42.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[42.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[42.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[42.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[42.583s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:46[m[K,
+[42.583s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_convex_hull.h:42[m[K,
+[42.584s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_lines_convex_hull.cpp:39[m[K:
+[42.585s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[42.586s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[42.587s]   314 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[42.588s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[42.589s] In file included from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_convex_hull.h:42[m[K,
+[42.607s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_lines_convex_hull.cpp:39[m[K:
+[42.607s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[42.608s]   314 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[42.608s]       |                                                                                                                      [01;36m[K~^[m[K
+[42.609s]       |                                                                                                                       [01;36m[K|[m[K
+[42.609s]       |                                                                                                                       [01;36m[Kchar*[m[K
+[49.020s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[49.029s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[49.030s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[49.031s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[49.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[49.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[49.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[49.034s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[49.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[49.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[49.036s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[49.043s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:42[m[K,
+[49.043s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons_concave.h:42[m[K,
+[49.044s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_polygons_concave.cpp:39[m[K:
+[49.045s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[49.046s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[49.047s]   314 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[49.048s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[49.048s] In file included from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:43[m[K,
+[49.049s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons_concave.h:42[m[K,
+[49.049s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_polygons_concave.cpp:39[m[K:
+[49.050s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[49.068s]   314 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[49.069s]       |                                                                                                                      [01;36m[K~^[m[K
+[49.070s]       |                                                                                                                       [01;36m[K|[m[K
+[49.071s]       |                                                                                                                       [01;36m[Kchar*[m[K
+[50.591s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[50.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[50.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[50.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[50.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[50.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[50.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[50.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[50.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[50.597s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[50.598s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[50.599s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:46[m[K,
+[50.600s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_ransac.h:42[m[K,
+[50.601s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_lines_ransac.cpp:39[m[K:
+[50.602s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[50.611s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[50.612s]   314 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[50.612s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[50.613s] In file included from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_ransac.h:42[m[K,
+[50.614s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_lines_ransac.cpp:39[m[K:
+[50.614s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[50.615s]   314 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[50.616s]       |                                                                                                                      [01;36m[K~^[m[K
+[50.616s]       |                                                                                                                       [01;36m[K|[m[K
+[50.617s]       |                                                                                                                       [01;36m[Kchar*[m[K
+[73.468s] [ 47%] [32mBuilding CXX object CMakeFiles/costmap_converter.dir/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp.o[0m
+[77.354s] In file included from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp:6[m[K:
+[77.354s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[77.355s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[77.355s]       |  [01;35m[K^~~~~~~[m[K
+[90.114s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[90.115s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[90.115s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[90.115s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[90.116s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[90.116s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[90.117s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[90.117s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[90.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[90.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[90.118s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[90.119s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:46[m[K,
+[90.119s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h:47[m[K,
+[90.120s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp:1[m[K:
+[90.120s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[90.120s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[90.121s]   314 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[90.121s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[90.122s] In file included from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h:47[m[K,
+[90.122s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp:1[m[K:
+[90.123s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[90.123s]   314 | apToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[90.124s]       |                                                                                 [01;36m[K~^[m[K
+[90.124s]       |                                                                                  [01;36m[K|[m[K
+[90.124s]       |                                                                                  [01;36m[Kchar*[m[K
+[90.125s] 
+[152.608s] [ 52%] [32m[1mLinking CXX shared library libcostmap_converter.so[0m
+[154.709s] [ 78%] Built target costmap_converter
+[154.758s] [35m[1mConsolidate compiler generated dependencies of target standalone_converter[0m
+[154.761s] [35m[1mConsolidate compiler generated dependencies of target test_costmap_polygons[0m
+[154.895s] [ 84%] [32mBuilding CXX object CMakeFiles/standalone_converter.dir/src/costmap_converter_node.cpp.o[0m
+[154.911s] [ 89%] [32mBuilding CXX object CMakeFiles/test_costmap_polygons.dir/test/costmap_polygons.cpp.o[0m
+[176.368s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[176.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[176.371s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[176.372s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[176.373s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[176.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[176.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[176.390s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[176.394s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[176.398s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[176.403s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[176.407s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_converter_node.cpp:40[m[K:
+[176.412s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[176.415s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[176.419s]   314 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[176.424s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[176.427s] In file included from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/src/costmap_converter_node.cpp:47[m[K:
+[176.431s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[176.434s]   314 | apToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[176.438s]       |                                                                                 [01;36m[K~^[m[K
+[176.441s]       |                                                                                  [01;36m[K|[m[K
+[176.445s]       |                                                                                  [01;36m[Kchar*[m[K
+[176.449s] 
+[180.982s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[180.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[180.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[180.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[180.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[180.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[180.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[180.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[180.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[180.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[180.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[180.993s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:42[m[K,
+[180.993s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/test/costmap_polygons.cpp:5[m[K:
+[180.994s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[181.006s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[181.007s]   314 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[181.009s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[181.009s] In file included from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:43[m[K,
+[181.010s]                  from [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/test/costmap_polygons.cpp:5[m[K:
+[181.011s] [01m[K/home/pi/ugv_ws/src/ugv_else/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:314:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[181.012s]   314 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[181.013s]       |                                                                                                                      [01;36m[K~^[m[K
+[181.022s]       |                                                                                                                       [01;36m[K|[m[K
+[181.026s]       |                                                                                                                       [01;36m[Kchar*[m[K
+[203.128s] [ 94%] [32m[1mLinking CXX executable test_costmap_polygons[0m
+[206.818s] [ 94%] Built target test_costmap_polygons
+[226.498s] [100%] [32m[1mLinking CXX executable standalone_converter[0m
+[228.357s] [100%] Built target standalone_converter
+[228.404s] Invoked command in '/home/pi/ugv_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/ugv_ws/build/costmap_converter -- -j4 -l4
+[228.413s] Invoking command in '/home/pi/ugv_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/ugv_ws/build/costmap_converter
+[228.442s] -- Install configuration: "Release"
+[228.444s] -- Execute custom install script
+[228.446s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/lib/libcostmap_converter.so
+[228.448s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/bin/standalone_converter
+[228.452s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_converter_interface.h
+[228.454s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/background_subtractor.h
+[228.456s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/blob_detector.h
+[228.457s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h
+[228.459s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Ctracker.h
+[228.460s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/HungarianAlg.h
+[228.462s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Kalman.h
+[228.463s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/README.md
+[228.465s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/defines.h
+[228.466s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_convex_hull.h
+[228.467s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_ransac.h
+[228.470s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons.h
+[228.470s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons_concave.h
+[228.473s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/misc.h
+[228.474s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/environment/library_path.sh
+[228.474s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/environment/library_path.dsv
+[228.475s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter//costmap_converter_plugins.xml
+[228.479s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/ament_index/resource_index/package_run_dependencies/costmap_converter
+[228.480s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/ament_index/resource_index/parent_prefix_path/costmap_converter
+[228.480s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.sh
+[228.484s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.dsv
+[228.484s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/environment/path.sh
+[228.486s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/environment/path.dsv
+[228.487s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/local_setup.bash
+[228.488s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/local_setup.sh
+[228.489s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/local_setup.zsh
+[228.490s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/local_setup.dsv
+[228.490s] -- Symlinking: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/package.dsv
+[228.525s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/ament_index/resource_index/packages/costmap_converter
+[228.527s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/ament_index/resource_index/costmap_converter__pluginlib__plugin/costmap_converter
+[228.528s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_include_directories-extras.cmake
+[228.529s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_libraries-extras.cmake
+[228.531s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_dependencies-extras.cmake
+[228.532s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig.cmake
+[228.533s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig-version.cmake
+[228.535s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/package.xml
+[228.544s] Invoked command in '/home/pi/ugv_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/ugv_ws/build/costmap_converter

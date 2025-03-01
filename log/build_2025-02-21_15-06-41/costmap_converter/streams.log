@@ -1,0 +1,52 @@
+[0.308s] Invoking command in '/home/pi/ugv_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/ugv_ws/build/costmap_converter -- -j4 -l4
+[0.902s] [35m[1mConsolidate compiler generated dependencies of target costmap_converter[0m
+[1.366s] [ 57%] Built target costmap_converter
+[1.615s] [ 68%] Built target gtest
+[1.800s] [35m[1mConsolidate compiler generated dependencies of target standalone_converter[0m
+[2.393s] [ 78%] Built target standalone_converter
+[2.596s] [ 89%] Built target gtest_main
+[2.709s] [35m[1mConsolidate compiler generated dependencies of target test_costmap_polygons[0m
+[3.034s] [100%] Built target test_costmap_polygons
+[3.120s] Invoked command in '/home/pi/ugv_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/ugv_ws/build/costmap_converter -- -j4 -l4
+[3.123s] Invoking command in '/home/pi/ugv_ws/build/costmap_converter': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/ugv_ws/build/costmap_converter
+[3.219s] -- Install configuration: "Release"
+[3.222s] -- Execute custom install script
+[3.224s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/lib/libcostmap_converter.so
+[3.228s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/bin/standalone_converter
+[3.233s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_converter_interface.h
+[3.250s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/background_subtractor.h
+[3.252s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/blob_detector.h
+[3.255s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h
+[3.256s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Ctracker.h
+[3.259s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/HungarianAlg.h
+[3.260s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/Kalman.h
+[3.265s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/README.md
+[3.266s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_dynamic_obstacles/multitarget_tracker/defines.h
+[3.281s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_convex_hull.h
+[3.284s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_lines_ransac.h
+[3.285s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons.h
+[3.287s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/costmap_to_polygons_concave.h
+[3.288s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/include//costmap_converter/misc.h
+[3.292s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/environment/library_path.sh
+[3.300s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/environment/library_path.dsv
+[3.302s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter//costmap_converter_plugins.xml
+[3.304s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/ament_index/resource_index/package_run_dependencies/costmap_converter
+[3.306s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/ament_index/resource_index/parent_prefix_path/costmap_converter
+[3.309s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.sh
+[3.310s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/environment/ament_prefix_path.dsv
+[3.318s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/environment/path.sh
+[3.326s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/environment/path.dsv
+[3.329s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/local_setup.bash
+[3.330s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/local_setup.sh
+[3.333s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/local_setup.zsh
+[3.334s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/local_setup.dsv
+[3.334s] -- Symlinking: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/package.dsv
+[3.469s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/ament_index/resource_index/packages/costmap_converter
+[3.472s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/ament_index/resource_index/costmap_converter__pluginlib__plugin/costmap_converter
+[3.474s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.478s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_libraries-extras.cmake
+[3.489s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.493s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig.cmake
+[3.497s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/cmake/costmap_converterConfig-version.cmake
+[3.500s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter/share/costmap_converter/package.xml
+[3.522s] Invoked command in '/home/pi/ugv_ws/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/ugv_ws/build/costmap_converter

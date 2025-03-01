@@ -1,0 +1,32 @@
+running develop
+Removing /home/pi/ugv_ws/install/ugv_chat_ai/lib/python3.10/site-packages/ugv-chat-ai.egg-link (link to .)
+running egg_info
+writing ../../../build/ugv_chat_ai/ugv_chat_ai.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ugv_chat_ai/ugv_chat_ai.egg-info/dependency_links.txt
+writing entry points to ../../../build/ugv_chat_ai/ugv_chat_ai.egg-info/entry_points.txt
+writing requirements to ../../../build/ugv_chat_ai/ugv_chat_ai.egg-info/requires.txt
+writing top-level names to ../../../build/ugv_chat_ai/ugv_chat_ai.egg-info/top_level.txt
+reading manifest file '../../../build/ugv_chat_ai/ugv_chat_ai.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ugv_chat_ai/ugv_chat_ai.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/ugv_ws/build/ugv_chat_ai/build
+creating /home/pi/ugv_ws/build/ugv_chat_ai/build/lib
+creating /home/pi/ugv_ws/build/ugv_chat_ai/build/lib/ugv_chat_ai
+copying ugv_chat_ai/__init__.py -> /home/pi/ugv_ws/build/ugv_chat_ai/build/lib/ugv_chat_ai
+copying ugv_chat_ai/app.py -> /home/pi/ugv_ws/build/ugv_chat_ai/build/lib/ugv_chat_ai
+running install
+running install_lib
+creating /home/pi/ugv_ws/install/ugv_chat_ai/lib/python3.10/site-packages/ugv_chat_ai
+copying /home/pi/ugv_ws/build/ugv_chat_ai/build/lib/ugv_chat_ai/__init__.py -> /home/pi/ugv_ws/install/ugv_chat_ai/lib/python3.10/site-packages/ugv_chat_ai
+copying /home/pi/ugv_ws/build/ugv_chat_ai/build/lib/ugv_chat_ai/app.py -> /home/pi/ugv_ws/install/ugv_chat_ai/lib/python3.10/site-packages/ugv_chat_ai
+byte-compiling /home/pi/ugv_ws/install/ugv_chat_ai/lib/python3.10/site-packages/ugv_chat_ai/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pi/ugv_ws/install/ugv_chat_ai/lib/python3.10/site-packages/ugv_chat_ai/app.py to app.cpython-310.pyc
+running install_data
+copying resource/ugv_chat_ai -> /home/pi/ugv_ws/install/ugv_chat_ai/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/ugv_ws/install/ugv_chat_ai/share/ugv_chat_ai
+running install_egg_info
+Copying ../../../build/ugv_chat_ai/ugv_chat_ai.egg-info to /home/pi/ugv_ws/install/ugv_chat_ai/lib/python3.10/site-packages/ugv_chat_ai-0.0.0-py3.10.egg-info
+running install_scripts
+Installing app script to /home/pi/ugv_ws/install/ugv_chat_ai/lib/ugv_chat_ai
+writing list of installed files to '/home/pi/ugv_ws/build/ugv_chat_ai/install.log'

@@ -1,0 +1,1 @@
+/home/pi/ugv_ws/build/vizanti_msgs/rosidl_generator_c/vizanti_msgs/srv/detail/record_rosbag__struct.h

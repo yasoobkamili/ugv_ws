@@ -1,0 +1,29 @@
+[0.080s] Invoking command in '/home/pi/ugv_ws/build/vizanti': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/ugv_ws/src/ugv_else/vizanti/vizanti -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ugv_ws/install/vizanti
+[0.220s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[1.660s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.140s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.641s] -- Configuring done
+[2.664s] -- Generating done
+[2.676s] -- Build files have been written to: /home/pi/ugv_ws/build/vizanti
+[2.691s] Invoked command in '/home/pi/ugv_ws/build/vizanti' returned '0': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pi/ugv_ws/src/ugv_else/vizanti/vizanti -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ugv_ws/install/vizanti
+[2.693s] Invoking command in '/home/pi/ugv_ws/build/vizanti': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/ugv_ws/build/vizanti -- -j4 -l4
+[2.906s] Invoked command in '/home/pi/ugv_ws/build/vizanti' returned '0': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pi/ugv_ws/build/vizanti -- -j4 -l4
+[2.908s] Invoking command in '/home/pi/ugv_ws/build/vizanti': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/ugv_ws/build/vizanti
+[2.966s] -- Install configuration: ""
+[2.971s] -- Execute custom install script
+[2.975s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/ament_index/resource_index/package_run_dependencies/vizanti
+[3.027s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/ament_index/resource_index/parent_prefix_path/vizanti
+[3.078s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/vizanti/environment/ament_prefix_path.sh
+[3.128s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/vizanti/environment/ament_prefix_path.dsv
+[3.179s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/vizanti/environment/path.sh
+[3.228s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/vizanti/environment/path.dsv
+[3.276s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/vizanti/local_setup.bash
+[3.323s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/vizanti/local_setup.sh
+[3.371s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/vizanti/local_setup.zsh
+[3.420s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/vizanti/local_setup.dsv
+[3.468s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/vizanti/package.dsv
+[3.516s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/ament_index/resource_index/packages/vizanti
+[3.561s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/vizanti/cmake/vizantiConfig.cmake
+[3.607s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/vizanti/cmake/vizantiConfig-version.cmake
+[3.658s] -- Symlinking: /home/pi/ugv_ws/install/vizanti/share/vizanti/package.xml
+[3.714s] Invoked command in '/home/pi/ugv_ws/build/vizanti' returned '0': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pi/ugv_ws/build/vizanti

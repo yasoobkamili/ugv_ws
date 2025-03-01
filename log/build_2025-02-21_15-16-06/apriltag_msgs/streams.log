@@ -1,0 +1,137 @@
+[0.305s] Invoking command in '/home/pi/ugv_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/apriltag_msgs -- -j4 -l4
+[1.363s] [ 10%] Built target apriltag_msgs__rosidl_generator_c
+[1.432s] [ 12%] Built target apriltag_msgs__cpp
+[1.514s] [ 12%] Built target ament_cmake_python_symlink_apriltag_msgs
+[1.858s] [ 23%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[2.050s] [ 38%] Built target apriltag_msgs__rosidl_typesupport_c
+[2.065s] [ 43%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[2.185s] [ 53%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[2.680s] [ 64%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[2.792s] [ 74%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[3.222s] [ 74%] Built target apriltag_msgs
+[3.595s] [ 76%] Built target apriltag_msgs__py
+[4.038s] [ 84%] Built target apriltag_msgs__rosidl_generator_py
+[4.565s] [ 89%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.593s] [ 94%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[4.695s] [100%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[7.825s] running egg_info
+[7.829s] writing apriltag_msgs.egg-info/PKG-INFO
+[7.835s] writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+[7.838s] writing top-level names to apriltag_msgs.egg-info/top_level.txt
+[7.877s] reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[7.882s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[8.325s] [100%] Built target ament_cmake_python_build_apriltag_msgs_egg
+[8.611s] Invoked command in '/home/pi/ugv_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/apriltag_msgs -- -j4 -l4
+[8.636s] Invoking command in '/home/pi/ugv_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/apriltag_msgs
+[8.719s] -- Install configuration: ""
+[8.723s] -- Execute custom install script
+[8.726s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+[8.733s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h
+[8.737s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h
+[8.740s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h
+[8.745s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h
+[8.748s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h
+[8.752s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h
+[8.757s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h
+[8.761s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h
+[8.765s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.772s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh
+[8.776s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv
+[8.783s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[8.789s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[8.793s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.799s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp
+[8.802s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+[8.806s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp
+[8.812s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+[8.816s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+[8.819s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.hpp
+[8.824s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+[8.827s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+[8.837s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+[8.840s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.hpp
+[8.886s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.887s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[8.887s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.890s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.892s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[8.912s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[8.915s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.916s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[8.935s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[8.935s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh
+[8.936s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv
+[8.936s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[8.937s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.937s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.938s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[8.938s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py
+[8.941s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c
+[8.944s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.950s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.950s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[8.951s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[8.958s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[8.973s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so
+[8.974s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py
+[8.983s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py
+[8.995s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py
+[9.030s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c
+[9.031s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_s.c
+[9.032s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[9.041s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[9.058s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[9.061s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl
+[9.062s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl
+[9.062s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg
+[9.063s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg
+[9.063s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs
+[9.063s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs
+[9.069s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh
+[9.078s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv
+[9.079s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh
+[9.079s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv
+[9.085s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash
+[9.094s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh
+[9.096s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh
+[9.096s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv
+[9.109s] -- Symlinking: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv
+[9.310s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs
+[9.311s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake
+[9.312s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.312s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.313s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.319s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.320s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.321s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.321s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake
+[9.323s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake
+[9.323s] -- Up-to-date symlink: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/package.xml
+[9.323s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so
+[9.338s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so
+[9.379s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.402s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so
+[9.403s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so
+[9.416s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so
+[9.428s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so
+[9.942s] Listing '/home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs'...
+[9.943s] Listing '/home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg'...
+[9.953s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so
+[9.954s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake
+[9.955s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.955s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.956s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.956s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake
+[9.975s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.983s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.984s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.985s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.986s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake
+[9.990s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.990s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.991s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.992s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake
+[9.993s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.994s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake
+[9.995s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.263s] Invoked command in '/home/pi/ugv_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/apriltag_msgs

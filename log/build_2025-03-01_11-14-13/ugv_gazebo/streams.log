@@ -1,0 +1,76 @@
+[0.091s] Invoking command in '/home/pi/ugv_ws/build/ugv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake /home/pi/ugv_ws/src/ugv_main/ugv_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ugv_ws/install/ugv_gazebo
+[0.181s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.563s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.811s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.865s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.111s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.151s] -- Configuring done
+[3.240s] -- Generating done
+[3.282s] -- Build files have been written to: /home/pi/ugv_ws/build/ugv_gazebo
+[3.338s] Invoked command in '/home/pi/ugv_ws/build/ugv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake /home/pi/ugv_ws/src/ugv_main/ugv_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ugv_ws/install/ugv_gazebo
+[3.340s] Invoking command in '/home/pi/ugv_ws/build/ugv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ugv_gazebo -- -j4 -l4
+[3.914s] Invoked command in '/home/pi/ugv_ws/build/ugv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ugv_gazebo -- -j4 -l4
+[4.002s] Invoking command in '/home/pi/ugv_ws/build/ugv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ugv_gazebo
+[4.117s] -- Install configuration: ""
+[4.148s] -- Execute custom install script
+[4.151s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/rviz/display.rviz
+[4.152s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/rviz/view_nav_2d.rviz
+[4.153s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/rviz/view_nav_3d.rviz
+[4.155s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/rviz/view_slam_2d.rviz
+[4.158s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/rviz/view_slam_3d.rviz
+[4.162s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/bringup/bringup.launch.py
+[4.175s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/bringup/bringup_test.launch.py
+[4.177s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/bringup/robot_state_publisher.launch.py
+[4.179s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/bringup/spawn_ugv.launch.py
+[4.180s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/display.launch.py
+[4.182s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/nav/nav.launch.py
+[4.183s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/nav/nav_rtabmap.launch.py
+[4.184s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/nav/rtabmap_localization_launch.py
+[4.186s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/nav_bringup/bringup_launch_cartographer.launch.py
+[4.187s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/nav_bringup/localization_launch.py
+[4.189s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/nav_bringup/nav2_bringup.launch.py
+[4.203s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/nav_bringup/navigation_launch.py
+[4.205s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/slam/cartographer.launch.py
+[4.206s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/slam/gmapping.launch.py
+[4.207s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/slam/rtabmap_rgbd.launch.py
+[4.209s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/launch/slam_nav/slam_nav.launch.py
+[4.211s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/urdf/rasp_rover.urdf
+[4.212s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/urdf/ugv_beast.urdf
+[4.213s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/urdf/ugv_rover.urdf
+[4.215s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/worlds/ugv_world.world
+[4.218s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/models/rasp_rover/model.config
+[4.231s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/models/rasp_rover/model.sdf
+[4.233s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/models/ugv_beast/model.config
+[4.235s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/models/ugv_beast/model.sdf
+[4.238s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/models/ugv_rover/model.config
+[4.241s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/models/ugv_rover/model.sdf
+[4.245s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/models/world/model.config
+[4.251s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/models/world/model.sdf
+[4.257s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/param/amcl_dwa.yaml
+[4.260s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/param/amcl_teb.yaml
+[4.264s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/param/emcl_dwa.yaml
+[4.269s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/param/emcl_teb.yaml
+[4.275s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/param/rtabmap_dwa.yaml
+[4.281s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/param/rtabmap_teb.yaml
+[4.285s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/param/slam_nav.yaml
+[4.290s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/maps/map.pbstream
+[4.296s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/maps/map.pgm
+[4.303s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/maps/map.yaml
+[4.308s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ament_index/resource_index/package_run_dependencies/ugv_gazebo
+[4.312s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ament_index/resource_index/parent_prefix_path/ugv_gazebo
+[4.318s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/environment/ament_prefix_path.sh
+[4.323s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/environment/ament_prefix_path.dsv
+[4.327s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/environment/path.sh
+[4.331s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/environment/path.dsv
+[4.336s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/local_setup.bash
+[4.341s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/local_setup.sh
+[4.346s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/local_setup.zsh
+[4.351s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/local_setup.dsv
+[4.356s] -- Symlinking: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/package.dsv
+[4.451s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ament_index/resource_index/packages/ugv_gazebo
+[4.457s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.461s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/cmake/ugv_gazeboConfig.cmake
+[4.464s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/cmake/ugv_gazeboConfig-version.cmake
+[4.468s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_gazebo/share/ugv_gazebo/package.xml
+[4.483s] Invoked command in '/home/pi/ugv_ws/build/ugv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ugv_gazebo

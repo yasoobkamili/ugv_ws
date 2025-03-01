@@ -1,0 +1,1 @@
+/home/pi/ugv_ws/build/vizanti_msgs/rosidl_cmake/srv/ManageNode_Request.msg

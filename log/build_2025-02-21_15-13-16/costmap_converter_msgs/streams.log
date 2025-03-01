@@ -1,0 +1,137 @@
+[0.210s] Invoking command in '/home/pi/ugv_ws/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/costmap_converter_msgs -- -j4 -l4
+[1.107s] [  2%] Built target costmap_converter_msgs__cpp
+[1.213s] [ 12%] Built target costmap_converter_msgs__rosidl_generator_c
+[1.266s] [ 12%] Built target ament_cmake_python_symlink_costmap_converter_msgs
+[1.597s] [ 23%] Built target costmap_converter_msgs__rosidl_typesupport_cpp
+[1.685s] [ 33%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp
+[1.800s] [ 43%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c
+[1.863s] [ 53%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_cpp
+[2.156s] [ 64%] Built target costmap_converter_msgs__rosidl_typesupport_c
+[2.250s] [ 74%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c
+[2.756s] [ 74%] Built target costmap_converter_msgs
+[3.158s] [ 76%] Built target costmap_converter_msgs__py
+[3.504s] [ 84%] Built target costmap_converter_msgs__rosidl_generator_py
+[3.958s] [ 89%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.003s] [ 94%] Built target costmap_converter_msgs__rosidl_typesupport_c__pyext
+[4.091s] [100%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext
+[6.380s] running egg_info
+[6.383s] writing costmap_converter_msgs.egg-info/PKG-INFO
+[6.389s] writing dependency_links to costmap_converter_msgs.egg-info/dependency_links.txt
+[6.404s] writing top-level names to costmap_converter_msgs.egg-info/top_level.txt
+[6.429s] reading manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[6.437s] writing manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[6.887s] [100%] Built target ament_cmake_python_build_costmap_converter_msgs_egg
+[7.117s] Invoked command in '/home/pi/ugv_ws/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/costmap_converter_msgs -- -j4 -l4
+[7.119s] Invoking command in '/home/pi/ugv_ws/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/costmap_converter_msgs
+[7.249s] -- Install configuration: ""
+[7.252s] -- Execute custom install script
+[7.255s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/ament_index/resource_index/rosidl_interfaces/costmap_converter_msgs
+[7.260s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.h
+[7.267s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.h
+[7.271s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.h
+[7.277s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__functions.h
+[7.280s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__struct.h
+[7.290s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.h
+[7.298s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_array_msg.h
+[7.300s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_msg.h
+[7.300s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.302s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/library_path.sh
+[7.302s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/library_path.dsv
+[7.314s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_fastrtps_c.h
+[7.315s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_fastrtps_c.h
+[7.316s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.327s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__builder.hpp
+[7.333s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.hpp
+[7.336s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__traits.hpp
+[7.343s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.hpp
+[7.350s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__builder.hpp
+[7.350s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__struct.hpp
+[7.362s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__traits.hpp
+[7.362s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.hpp
+[7.371s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_array_msg.hpp
+[7.371s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_msg.hpp
+[7.378s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.383s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.390s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.391s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.398s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_introspection_c.h
+[7.408s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_introspection_c.h
+[7.412s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.412s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.413s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.426s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/pythonpath.sh
+[7.426s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/pythonpath.dsv
+[7.427s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/PKG-INFO
+[7.438s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/SOURCES.txt
+[7.442s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/dependency_links.txt
+[7.442s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/top_level.txt
+[7.456s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/__init__.py
+[7.469s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_c.c
+[7.475s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.476s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.478s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.480s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.486s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.491s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/libcostmap_converter_msgs__rosidl_generator_py.so
+[7.506s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/__init__.py
+[7.521s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_array_msg.py
+[7.521s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_array_msg_s.c
+[7.524s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_msg.py
+[7.524s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_msg_s.c
+[7.527s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.528s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.550s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.551s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleMsg.idl
+[7.552s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleArrayMsg.idl
+[7.553s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleMsg.msg
+[7.558s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleArrayMsg.msg
+[7.559s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/ament_index/resource_index/package_run_dependencies/costmap_converter_msgs
+[7.563s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/ament_index/resource_index/parent_prefix_path/costmap_converter_msgs
+[7.564s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/ament_prefix_path.sh
+[7.565s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/ament_prefix_path.dsv
+[7.570s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/path.sh
+[7.571s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/path.dsv
+[7.572s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.bash
+[7.579s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.sh
+[7.586s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.zsh
+[7.587s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.dsv
+[7.588s] -- Symlinking: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/package.dsv
+[7.689s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/ament_index/resource_index/packages/costmap_converter_msgs
+[7.690s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake-extras.cmake
+[7.692s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.695s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.698s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.700s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.703s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.711s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.714s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgsConfig.cmake
+[7.723s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgsConfig-version.cmake
+[7.725s] -- Up-to-date symlink: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/package.xml
+[7.736s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_c.so
+[7.742s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so
+[7.753s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.761s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so
+[7.768s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_c.so
+[7.773s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so
+[7.779s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_cpp.so
+[8.300s] Listing '/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs'...
+[8.305s] Listing '/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg'...
+[8.354s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_py.so
+[8.358s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_cExport.cmake
+[8.358s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.359s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.359s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.361s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_cppExport.cmake
+[8.361s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.362s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.363s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.365s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.366s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cExport.cmake
+[8.386s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.387s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.388s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.389s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cppExport.cmake
+[8.389s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.390s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_pyExport.cmake
+[8.391s] -- Up-to-date: /home/pi/ugv_ws/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.747s] Invoked command in '/home/pi/ugv_ws/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/costmap_converter_msgs

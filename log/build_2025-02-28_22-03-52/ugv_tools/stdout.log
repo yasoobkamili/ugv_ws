@@ -1,0 +1,41 @@
+running develop
+Removing /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv-tools.egg-link (link to .)
+running egg_info
+writing ../../../build/ugv_tools/ugv_tools.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ugv_tools/ugv_tools.egg-info/dependency_links.txt
+writing entry points to ../../../build/ugv_tools/ugv_tools.egg-info/entry_points.txt
+writing requirements to ../../../build/ugv_tools/ugv_tools.egg-info/requires.txt
+writing top-level names to ../../../build/ugv_tools/ugv_tools.egg-info/top_level.txt
+reading manifest file '../../../build/ugv_tools/ugv_tools.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ugv_tools/ugv_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/ugv_ws/build/ugv_tools/build
+creating /home/pi/ugv_ws/build/ugv_tools/build/lib
+creating /home/pi/ugv_ws/build/ugv_tools/build/lib/ugv_tools
+copying ugv_tools/joy_ctrl.py -> /home/pi/ugv_ws/build/ugv_tools/build/lib/ugv_tools
+copying ugv_tools/keyboard_ctrl.py -> /home/pi/ugv_ws/build/ugv_tools/build/lib/ugv_tools
+copying ugv_tools/__init__.py -> /home/pi/ugv_ws/build/ugv_tools/build/lib/ugv_tools
+copying ugv_tools/behavior_ctrl.py -> /home/pi/ugv_ws/build/ugv_tools/build/lib/ugv_tools
+running install
+running install_lib
+creating /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv_tools
+copying /home/pi/ugv_ws/build/ugv_tools/build/lib/ugv_tools/joy_ctrl.py -> /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv_tools
+copying /home/pi/ugv_ws/build/ugv_tools/build/lib/ugv_tools/keyboard_ctrl.py -> /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv_tools
+copying /home/pi/ugv_ws/build/ugv_tools/build/lib/ugv_tools/__init__.py -> /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv_tools
+copying /home/pi/ugv_ws/build/ugv_tools/build/lib/ugv_tools/behavior_ctrl.py -> /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv_tools
+byte-compiling /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv_tools/joy_ctrl.py to joy_ctrl.cpython-310.pyc
+byte-compiling /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv_tools/keyboard_ctrl.py to keyboard_ctrl.cpython-310.pyc
+byte-compiling /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv_tools/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv_tools/behavior_ctrl.py to behavior_ctrl.cpython-310.pyc
+running install_data
+copying resource/ugv_tools -> /home/pi/ugv_ws/install/ugv_tools/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/ugv_ws/install/ugv_tools/share/ugv_tools
+copying launch/teleop_twist_joy.launch.py -> /home/pi/ugv_ws/install/ugv_tools/share/ugv_tools/launch
+running install_egg_info
+Copying ../../../build/ugv_tools/ugv_tools.egg-info to /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv_tools-0.0.0-py3.10.egg-info
+running install_scripts
+Installing behavior_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+Installing joy_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+Installing keyboard_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+writing list of installed files to '/home/pi/ugv_ws/build/ugv_tools/install.log'

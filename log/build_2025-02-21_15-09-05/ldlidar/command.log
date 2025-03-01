@@ -1,0 +1,4 @@
+Invoking command in '/home/pi/ugv_ws/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ldlidar -- -j4 -l4
+Invoked command in '/home/pi/ugv_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ldlidar -- -j4 -l4
+Invoking command in '/home/pi/ugv_ws/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ldlidar
+Invoked command in '/home/pi/ugv_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ldlidar

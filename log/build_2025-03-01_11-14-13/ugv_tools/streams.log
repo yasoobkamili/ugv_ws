@@ -1,0 +1,22 @@
+[7.117s] Invoking command in '/home/pi/ugv_ws/build/ugv_tools': PYTHONPATH=/home/pi/ugv_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_tools/build --no-deps symlink_data --force
+[9.141s] running develop
+[10.848s] running egg_info
+[10.851s] writing ugv_tools.egg-info/PKG-INFO
+[10.852s] writing dependency_links to ugv_tools.egg-info/dependency_links.txt
+[10.852s] writing entry points to ugv_tools.egg-info/entry_points.txt
+[10.853s] writing requirements to ugv_tools.egg-info/requires.txt
+[10.854s] writing top-level names to ugv_tools.egg-info/top_level.txt
+[10.866s] reading manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[10.889s] writing manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[10.898s] running build_ext
+[10.899s] Creating /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv-tools.egg-link (link to .)
+[10.905s] Installing behavior_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[10.906s] Installing joy_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[10.907s] Installing keyboard_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[10.909s] 
+[10.909s] Installed /home/pi/ugv_ws/build/ugv_tools
+[10.910s] running symlink_data
+[10.910s] symbolically linking /home/pi/ugv_ws/build/ugv_tools/resource/ugv_tools -> /home/pi/ugv_ws/install/ugv_tools/share/ament_index/resource_index/packages
+[10.912s] symbolically linking /home/pi/ugv_ws/build/ugv_tools/package.xml -> /home/pi/ugv_ws/install/ugv_tools/share/ugv_tools
+[10.912s] symbolically linking /home/pi/ugv_ws/build/ugv_tools/launch/teleop_twist_joy.launch.py -> /home/pi/ugv_ws/install/ugv_tools/share/ugv_tools/launch
+[11.119s] Invoked command in '/home/pi/ugv_ws/build/ugv_tools' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_tools/build --no-deps symlink_data --force

@@ -1,0 +1,59 @@
+[0.199s] Invoking command in '/home/pi/ugv_ws/build/ugv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ugv_description -- -j4 -l4
+[0.467s] Invoked command in '/home/pi/ugv_ws/build/ugv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ugv_description -- -j4 -l4
+[0.475s] Invoking command in '/home/pi/ugv_ws/build/ugv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ugv_description
+[0.528s] -- Install configuration: ""
+[0.530s] -- Execute custom install script
+[0.534s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/launch/display.launch.py
+[0.538s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/rasp_rover/base_lidar_link.stl
+[0.541s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/rasp_rover/base_link.stl
+[0.543s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/rasp_rover/left_down_wheel_link.stl
+[0.544s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/rasp_rover/left_up_wheel_link.stl
+[0.548s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/rasp_rover/pt_base_link.stl
+[0.549s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/rasp_rover/pt_camera_link.stl
+[0.552s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/rasp_rover/pt_link1.stl
+[0.554s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/rasp_rover/pt_link2.stl
+[0.559s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/rasp_rover/right_down_wheel_link.stl
+[0.559s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/rasp_rover/right_up_wheel_link.stl
+[0.563s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_beast/3d_camera_link.stl
+[0.567s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_beast/base_lidar_link.stl
+[0.571s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_beast/base_link.stl
+[0.572s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_beast/left_down_wheel_link.stl
+[0.579s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_beast/left_up_wheel_link.stl
+[0.580s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_beast/pt_base_link.stl
+[0.584s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_beast/pt_camera_link.stl
+[0.591s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_beast/pt_link1.stl
+[0.592s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_beast/pt_link2.stl
+[0.594s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_beast/right_down_wheel_link.stl
+[0.600s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_beast/right_up_wheel_link.stl
+[0.600s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_rover/3d_camera_link.stl
+[0.604s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_rover/base_lidar_link.stl
+[0.611s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_rover/base_link.stl
+[0.612s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_rover/left_down_wheel_link.stl
+[0.612s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_rover/left_up_wheel_link.stl
+[0.613s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_rover/pt_base_link.stl
+[0.617s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_rover/pt_camera_link.stl
+[0.617s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_rover/pt_link1.stl
+[0.620s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_rover/pt_link2.stl
+[0.622s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_rover/right_down_wheel_link.stl
+[0.622s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/meshes/ugv_rover/right_up_wheel_link.stl
+[0.623s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/urdf/rasp_rover.urdf
+[0.626s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/urdf/ugv_beast.urdf
+[0.626s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/urdf/ugv_rover.urdf
+[0.629s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/rviz/view_description.rviz
+[0.630s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ament_index/resource_index/package_run_dependencies/ugv_description
+[0.631s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ament_index/resource_index/parent_prefix_path/ugv_description
+[0.632s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/environment/ament_prefix_path.sh
+[0.632s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/environment/ament_prefix_path.dsv
+[0.633s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/environment/path.sh
+[0.633s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/environment/path.dsv
+[0.634s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/local_setup.bash
+[0.634s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/local_setup.sh
+[0.641s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/local_setup.zsh
+[0.642s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/local_setup.dsv
+[0.643s] -- Symlinking: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/package.dsv
+[0.735s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ament_index/resource_index/packages/ugv_description
+[0.735s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.742s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/cmake/ugv_descriptionConfig.cmake
+[0.746s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/cmake/ugv_descriptionConfig-version.cmake
+[0.763s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_description/share/ugv_description/package.xml
+[0.774s] Invoked command in '/home/pi/ugv_ws/build/ugv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ugv_description

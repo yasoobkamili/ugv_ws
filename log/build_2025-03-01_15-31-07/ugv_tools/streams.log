@@ -1,0 +1,19 @@
+[7.513s] Invoking command in '/home/pi/ugv_ws/build/ugv_tools': PYTHONPATH=/home/pi/ugv_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_tools/build --no-deps symlink_data
+[9.670s] running develop
+[11.257s] running egg_info
+[11.260s] writing ugv_tools.egg-info/PKG-INFO
+[11.262s] writing dependency_links to ugv_tools.egg-info/dependency_links.txt
+[11.262s] writing entry points to ugv_tools.egg-info/entry_points.txt
+[11.263s] writing requirements to ugv_tools.egg-info/requires.txt
+[11.264s] writing top-level names to ugv_tools.egg-info/top_level.txt
+[11.273s] reading manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[11.277s] writing manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[11.287s] running build_ext
+[11.289s] Creating /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv-tools.egg-link (link to .)
+[11.293s] Installing behavior_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[11.295s] Installing joy_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[11.297s] Installing keyboard_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[11.299s] 
+[11.300s] Installed /home/pi/ugv_ws/build/ugv_tools
+[11.301s] running symlink_data
+[11.593s] Invoked command in '/home/pi/ugv_ws/build/ugv_tools' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_tools/build --no-deps symlink_data

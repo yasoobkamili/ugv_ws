@@ -1,0 +1,18 @@
+[12.233s] Invoking command in '/home/pi/ugv_ws/build/ugv_bringup': PYTHONPATH=/home/pi/ugv_ws/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_bringup/build --no-deps symlink_data
+[15.187s] running develop
+[17.520s] running egg_info
+[17.530s] writing ugv_bringup.egg-info/PKG-INFO
+[17.535s] writing dependency_links to ugv_bringup.egg-info/dependency_links.txt
+[17.551s] writing entry points to ugv_bringup.egg-info/entry_points.txt
+[17.556s] writing requirements to ugv_bringup.egg-info/requires.txt
+[17.571s] writing top-level names to ugv_bringup.egg-info/top_level.txt
+[17.591s] reading manifest file 'ugv_bringup.egg-info/SOURCES.txt'
+[17.607s] writing manifest file 'ugv_bringup.egg-info/SOURCES.txt'
+[17.624s] running build_ext
+[17.629s] Creating /home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages/ugv-bringup.egg-link (link to .)
+[17.638s] Installing ugv_bringup script to /home/pi/ugv_ws/install/ugv_bringup/lib/ugv_bringup
+[17.643s] Installing ugv_driver script to /home/pi/ugv_ws/install/ugv_bringup/lib/ugv_bringup
+[17.649s] 
+[17.652s] Installed /home/pi/ugv_ws/build/ugv_bringup
+[17.656s] running symlink_data
+[17.944s] Invoked command in '/home/pi/ugv_ws/build/ugv_bringup' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_bringup/build --no-deps symlink_data

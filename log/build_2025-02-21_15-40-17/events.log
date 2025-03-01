@@ -1,0 +1,288 @@
+[0.000000] (-) TimerEvent: {}
+[0.002918] (apriltag) JobQueued: {'identifier': 'apriltag', 'dependencies': OrderedDict()}
+[0.003619] (apriltag_msgs) JobQueued: {'identifier': 'apriltag_msgs', 'dependencies': OrderedDict()}
+[0.003884] (cartographer) JobQueued: {'identifier': 'cartographer', 'dependencies': OrderedDict()}
+[0.004262] (costmap_converter_msgs) JobQueued: {'identifier': 'costmap_converter_msgs', 'dependencies': OrderedDict()}
+[0.004435] (emcl2) JobQueued: {'identifier': 'emcl2', 'dependencies': OrderedDict()}
+[0.004675] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict()}
+[0.004805] (ldlidar) JobQueued: {'identifier': 'ldlidar', 'dependencies': OrderedDict()}
+[0.004939] (openslam_gmapping) JobQueued: {'identifier': 'openslam_gmapping', 'dependencies': OrderedDict()}
+[0.005037] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.005127] (robot_pose_publisher) JobQueued: {'identifier': 'robot_pose_publisher', 'dependencies': OrderedDict()}
+[0.005253] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.006343] (ugv_base_node) JobQueued: {'identifier': 'ugv_base_node', 'dependencies': OrderedDict()}
+[0.006625] (ugv_bringup) JobQueued: {'identifier': 'ugv_bringup', 'dependencies': OrderedDict()}
+[0.007135] (ugv_chat_ai) JobQueued: {'identifier': 'ugv_chat_ai', 'dependencies': OrderedDict()}
+[0.007365] (ugv_description) JobQueued: {'identifier': 'ugv_description', 'dependencies': OrderedDict()}
+[0.007482] (ugv_gazebo) JobQueued: {'identifier': 'ugv_gazebo', 'dependencies': OrderedDict()}
+[0.007576] (ugv_interface) JobQueued: {'identifier': 'ugv_interface', 'dependencies': OrderedDict()}
+[0.007747] (ugv_nav) JobQueued: {'identifier': 'ugv_nav', 'dependencies': OrderedDict()}
+[0.007903] (ugv_slam) JobQueued: {'identifier': 'ugv_slam', 'dependencies': OrderedDict()}
+[0.008642] (ugv_tools) JobQueued: {'identifier': 'ugv_tools', 'dependencies': OrderedDict()}
+[0.008883] (ugv_vision) JobQueued: {'identifier': 'ugv_vision', 'dependencies': OrderedDict()}
+[0.009229] (ugv_web_app) JobQueued: {'identifier': 'ugv_web_app', 'dependencies': OrderedDict()}
+[0.009452] (vizanti_cpp) JobQueued: {'identifier': 'vizanti_cpp', 'dependencies': OrderedDict()}
+[0.009602] (vizanti_msgs) JobQueued: {'identifier': 'vizanti_msgs', 'dependencies': OrderedDict()}
+[0.009801] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict([('apriltag', '/home/pi/ugv_ws/install/apriltag'), ('apriltag_msgs', '/home/pi/ugv_ws/install/apriltag_msgs')])}
+[0.009955] (costmap_converter) JobQueued: {'identifier': 'costmap_converter', 'dependencies': OrderedDict([('costmap_converter_msgs', '/home/pi/ugv_ws/install/costmap_converter_msgs')])}
+[0.010870] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/home/pi/ugv_ws/install/openslam_gmapping')])}
+[0.011110] (vizanti_demos) JobQueued: {'identifier': 'vizanti_demos', 'dependencies': OrderedDict([('vizanti_msgs', '/home/pi/ugv_ws/install/vizanti_msgs')])}
+[0.011320] (vizanti_server) JobQueued: {'identifier': 'vizanti_server', 'dependencies': OrderedDict([('vizanti_msgs', '/home/pi/ugv_ws/install/vizanti_msgs')])}
+[0.011517] (vizanti) JobQueued: {'identifier': 'vizanti', 'dependencies': OrderedDict([('vizanti_msgs', '/home/pi/ugv_ws/install/vizanti_msgs'), ('vizanti_server', '/home/pi/ugv_ws/install/vizanti_server')])}
+[0.011717] (vizanti_msgs) JobStarted: {'identifier': 'vizanti_msgs'}
+[0.063272] (apriltag) JobStarted: {'identifier': 'apriltag'}
+[0.098457] (-) TimerEvent: {}
+[0.104760] (apriltag_msgs) JobStarted: {'identifier': 'apriltag_msgs'}
+[0.144624] (costmap_converter_msgs) JobStarted: {'identifier': 'costmap_converter_msgs'}
+[0.193003] (vizanti_msgs) JobProgress: {'identifier': 'vizanti_msgs', 'progress': 'cmake'}
+[0.196997] (vizanti_msgs) JobProgress: {'identifier': 'vizanti_msgs', 'progress': 'build'}
+[0.200145] (vizanti_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ugv_ws/build/vizanti_msgs', '--', '-j4', '-l4'], 'cwd': '/home/pi/ugv_ws/build/vizanti_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.155.199 36630 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ugv_ws/install/vizanti_msgs/lib:/home/pi/ugv_ws/install/ugv_interface/lib:/home/pi/ugv_ws/install/teb_local_planner/lib:/home/pi/ugv_ws/install/teb_msgs/lib:/home/pi/ugv_ws/install/openslam_gmapping/lib:/home/pi/ugv_ws/install/costmap_converter/lib:/home/pi/ugv_ws/install/costmap_converter_msgs/lib:/home/pi/ugv_ws/install/apriltag_ros/lib:/home/pi/ugv_ws/install/apriltag_msgs/lib:/home/pi/ugv_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ugv_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/pi/ugv_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/pi/ugv_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '12'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/home/pi/ugv_ws/install/costmap_converter/bin:/home/pi/ugv_ws/install/apriltag_ros/bin:/home/pi/ugv_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/pi/ugv_ws/install/vizanti:/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_demos:/home/pi/ugv_ws/install/vizanti_msgs:/home/pi/ugv_ws/install/vizanti_cpp:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_slam:/home/pi/ugv_ws/install/ugv_nav:/home/pi/ugv_ws/install/ugv_interface:/home/pi/ugv_ws/install/ugv_gazebo:/home/pi/ugv_ws/install/ugv_description:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/home/pi/ugv_ws/install/ugv_base_node:/home/pi/ugv_ws/install/teb_local_planner:/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/sllidar_ros2:/home/pi/ugv_ws/install/slam_gmapping:/home/pi/ugv_ws/install/robot_pose_publisher:/home/pi/ugv_ws/install/rf2o_laser_odometry:/home/pi/ugv_ws/install/openslam_gmapping:/home/pi/ugv_ws/install/ldlidar:/home/pi/ugv_ws/install/explore_lite:/home/pi/ugv_ws/install/emcl2:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:/home/pi/ugv_ws/install/cartographer:/home/pi/ugv_ws/install/apriltag_ros:/home/pi/ugv_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ugv_ws/build/vizanti_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.155.199 36630 192.168.155.88 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/build/ugv_web_app:/home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages:/home/pi/ugv_ws/build/ugv_vision:/home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages:/home/pi/ugv_ws/build/ugv_tools:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:/home/pi/ugv_ws/install/ugv_interface/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/build/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_chat_ai/lib/python3.10/site-packages:/home/pi/ugv_ws/build/ugv_bringup:/home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages:/home/pi/ugv_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/apriltag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ugv_ws/install/vizanti:/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_demos:/home/pi/ugv_ws/install/vizanti_msgs:/home/pi/ugv_ws/install/vizanti_cpp:/home/pi/ugv_ws/install/ugv_slam:/home/pi/ugv_ws/install/ugv_nav:/home/pi/ugv_ws/install/ugv_interface:/home/pi/ugv_ws/install/ugv_gazebo:/home/pi/ugv_ws/install/ugv_description:/home/pi/ugv_ws/install/ugv_base_node:/home/pi/ugv_ws/install/teb_local_planner:/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/sllidar_ros2:/home/pi/ugv_ws/install/slam_gmapping:/home/pi/ugv_ws/install/robot_pose_publisher:/home/pi/ugv_ws/install/rf2o_laser_odometry:/home/pi/ugv_ws/install/openslam_gmapping:/home/pi/ugv_ws/install/ldlidar:/home/pi/ugv_ws/install/explore_lite:/home/pi/ugv_ws/install/emcl2:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:/home/pi/ugv_ws/install/cartographer:/home/pi/ugv_ws/install/apriltag_ros:/home/pi/ugv_ws/install/apriltag_msgs:/home/pi/ugv_ws/install/apriltag:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble'), ('UGV_MODEL', 'ugv_rover')]), 'shell': False}
+[0.205120] (-) TimerEvent: {}
+[0.219690] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'cmake'}
+[0.223352] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'build'}
+[0.224954] (apriltag) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ugv_ws/build/apriltag', '--', '-j4', '-l4'], 'cwd': '/home/pi/ugv_ws/build/apriltag', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.155.199 36630 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ugv_ws/install/vizanti_msgs/lib:/home/pi/ugv_ws/install/ugv_interface/lib:/home/pi/ugv_ws/install/teb_local_planner/lib:/home/pi/ugv_ws/install/teb_msgs/lib:/home/pi/ugv_ws/install/openslam_gmapping/lib:/home/pi/ugv_ws/install/costmap_converter/lib:/home/pi/ugv_ws/install/costmap_converter_msgs/lib:/home/pi/ugv_ws/install/apriltag_ros/lib:/home/pi/ugv_ws/install/apriltag_msgs/lib:/home/pi/ugv_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ugv_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/pi/ugv_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/pi/ugv_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '12'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/home/pi/ugv_ws/install/costmap_converter/bin:/home/pi/ugv_ws/install/apriltag_ros/bin:/home/pi/ugv_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/pi/ugv_ws/install/vizanti:/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_demos:/home/pi/ugv_ws/install/vizanti_msgs:/home/pi/ugv_ws/install/vizanti_cpp:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_slam:/home/pi/ugv_ws/install/ugv_nav:/home/pi/ugv_ws/install/ugv_interface:/home/pi/ugv_ws/install/ugv_gazebo:/home/pi/ugv_ws/install/ugv_description:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/home/pi/ugv_ws/install/ugv_base_node:/home/pi/ugv_ws/install/teb_local_planner:/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/sllidar_ros2:/home/pi/ugv_ws/install/slam_gmapping:/home/pi/ugv_ws/install/robot_pose_publisher:/home/pi/ugv_ws/install/rf2o_laser_odometry:/home/pi/ugv_ws/install/openslam_gmapping:/home/pi/ugv_ws/install/ldlidar:/home/pi/ugv_ws/install/explore_lite:/home/pi/ugv_ws/install/emcl2:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:/home/pi/ugv_ws/install/cartographer:/home/pi/ugv_ws/install/apriltag_ros:/home/pi/ugv_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ugv_ws/build/apriltag'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.155.199 36630 192.168.155.88 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/build/ugv_web_app:/home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages:/home/pi/ugv_ws/build/ugv_vision:/home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages:/home/pi/ugv_ws/build/ugv_tools:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:/home/pi/ugv_ws/install/ugv_interface/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/build/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_chat_ai/lib/python3.10/site-packages:/home/pi/ugv_ws/build/ugv_bringup:/home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages:/home/pi/ugv_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/apriltag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ugv_ws/install/vizanti:/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_demos:/home/pi/ugv_ws/install/vizanti_msgs:/home/pi/ugv_ws/install/vizanti_cpp:/home/pi/ugv_ws/install/ugv_slam:/home/pi/ugv_ws/install/ugv_nav:/home/pi/ugv_ws/install/ugv_interface:/home/pi/ugv_ws/install/ugv_gazebo:/home/pi/ugv_ws/install/ugv_description:/home/pi/ugv_ws/install/ugv_base_node:/home/pi/ugv_ws/install/teb_local_planner:/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/sllidar_ros2:/home/pi/ugv_ws/install/slam_gmapping:/home/pi/ugv_ws/install/robot_pose_publisher:/home/pi/ugv_ws/install/rf2o_laser_odometry:/home/pi/ugv_ws/install/openslam_gmapping:/home/pi/ugv_ws/install/ldlidar:/home/pi/ugv_ws/install/explore_lite:/home/pi/ugv_ws/install/emcl2:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:/home/pi/ugv_ws/install/cartographer:/home/pi/ugv_ws/install/apriltag_ros:/home/pi/ugv_ws/install/apriltag_msgs:/home/pi/ugv_ws/install/apriltag:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble'), ('UGV_MODEL', 'ugv_rover')]), 'shell': False}
+[0.250256] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'cmake'}
+[0.254933] (apriltag_msgs) JobProgress: {'identifier': 'apriltag_msgs', 'progress': 'build'}
+[0.256851] (apriltag_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ugv_ws/build/apriltag_msgs', '--', '-j4', '-l4'], 'cwd': '/home/pi/ugv_ws/build/apriltag_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.155.199 36630 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ugv_ws/install/vizanti_msgs/lib:/home/pi/ugv_ws/install/ugv_interface/lib:/home/pi/ugv_ws/install/teb_local_planner/lib:/home/pi/ugv_ws/install/teb_msgs/lib:/home/pi/ugv_ws/install/openslam_gmapping/lib:/home/pi/ugv_ws/install/costmap_converter/lib:/home/pi/ugv_ws/install/costmap_converter_msgs/lib:/home/pi/ugv_ws/install/apriltag_ros/lib:/home/pi/ugv_ws/install/apriltag_msgs/lib:/home/pi/ugv_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ugv_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/pi/ugv_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/pi/ugv_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '12'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/home/pi/ugv_ws/install/costmap_converter/bin:/home/pi/ugv_ws/install/apriltag_ros/bin:/home/pi/ugv_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/pi/ugv_ws/install/vizanti:/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_demos:/home/pi/ugv_ws/install/vizanti_msgs:/home/pi/ugv_ws/install/vizanti_cpp:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_slam:/home/pi/ugv_ws/install/ugv_nav:/home/pi/ugv_ws/install/ugv_interface:/home/pi/ugv_ws/install/ugv_gazebo:/home/pi/ugv_ws/install/ugv_description:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/home/pi/ugv_ws/install/ugv_base_node:/home/pi/ugv_ws/install/teb_local_planner:/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/sllidar_ros2:/home/pi/ugv_ws/install/slam_gmapping:/home/pi/ugv_ws/install/robot_pose_publisher:/home/pi/ugv_ws/install/rf2o_laser_odometry:/home/pi/ugv_ws/install/openslam_gmapping:/home/pi/ugv_ws/install/ldlidar:/home/pi/ugv_ws/install/explore_lite:/home/pi/ugv_ws/install/emcl2:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:/home/pi/ugv_ws/install/cartographer:/home/pi/ugv_ws/install/apriltag_ros:/home/pi/ugv_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ugv_ws/build/apriltag_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.155.199 36630 192.168.155.88 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/build/ugv_web_app:/home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages:/home/pi/ugv_ws/build/ugv_vision:/home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages:/home/pi/ugv_ws/build/ugv_tools:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:/home/pi/ugv_ws/install/ugv_interface/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/build/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_chat_ai/lib/python3.10/site-packages:/home/pi/ugv_ws/build/ugv_bringup:/home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages:/home/pi/ugv_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/apriltag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ugv_ws/install/vizanti:/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_demos:/home/pi/ugv_ws/install/vizanti_msgs:/home/pi/ugv_ws/install/vizanti_cpp:/home/pi/ugv_ws/install/ugv_slam:/home/pi/ugv_ws/install/ugv_nav:/home/pi/ugv_ws/install/ugv_interface:/home/pi/ugv_ws/install/ugv_gazebo:/home/pi/ugv_ws/install/ugv_description:/home/pi/ugv_ws/install/ugv_base_node:/home/pi/ugv_ws/install/teb_local_planner:/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/sllidar_ros2:/home/pi/ugv_ws/install/slam_gmapping:/home/pi/ugv_ws/install/robot_pose_publisher:/home/pi/ugv_ws/install/rf2o_laser_odometry:/home/pi/ugv_ws/install/openslam_gmapping:/home/pi/ugv_ws/install/ldlidar:/home/pi/ugv_ws/install/explore_lite:/home/pi/ugv_ws/install/emcl2:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:/home/pi/ugv_ws/install/cartographer:/home/pi/ugv_ws/install/apriltag_ros:/home/pi/ugv_ws/install/apriltag_msgs:/home/pi/ugv_ws/install/apriltag:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble'), ('UGV_MODEL', 'ugv_rover')]), 'shell': False}
+[0.303674] (costmap_converter_msgs) JobProgress: {'identifier': 'costmap_converter_msgs', 'progress': 'cmake'}
+[0.305651] (-) TimerEvent: {}
+[0.309535] (costmap_converter_msgs) JobProgress: {'identifier': 'costmap_converter_msgs', 'progress': 'build'}
+[0.311448] (costmap_converter_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/ugv_ws/build/costmap_converter_msgs', '--', '-j4', '-l4'], 'cwd': '/home/pi/ugv_ws/build/costmap_converter_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.155.199 36630 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/ugv_ws/install/vizanti_msgs/lib:/home/pi/ugv_ws/install/ugv_interface/lib:/home/pi/ugv_ws/install/teb_local_planner/lib:/home/pi/ugv_ws/install/teb_msgs/lib:/home/pi/ugv_ws/install/openslam_gmapping/lib:/home/pi/ugv_ws/install/costmap_converter/lib:/home/pi/ugv_ws/install/costmap_converter_msgs/lib:/home/pi/ugv_ws/install/apriltag_ros/lib:/home/pi/ugv_ws/install/apriltag_msgs/lib:/home/pi/ugv_ws/install/apriltag/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/ugv_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/pi/ugv_ws/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/pi/ugv_ws/install/apriltag/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '12'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/home/pi/ugv_ws/install/costmap_converter/bin:/home/pi/ugv_ws/install/apriltag_ros/bin:/home/pi/ugv_ws/install/apriltag/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/pi/ugv_ws/install/vizanti:/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_demos:/home/pi/ugv_ws/install/vizanti_msgs:/home/pi/ugv_ws/install/vizanti_cpp:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_slam:/home/pi/ugv_ws/install/ugv_nav:/home/pi/ugv_ws/install/ugv_interface:/home/pi/ugv_ws/install/ugv_gazebo:/home/pi/ugv_ws/install/ugv_description:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/home/pi/ugv_ws/install/ugv_base_node:/home/pi/ugv_ws/install/teb_local_planner:/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/sllidar_ros2:/home/pi/ugv_ws/install/slam_gmapping:/home/pi/ugv_ws/install/robot_pose_publisher:/home/pi/ugv_ws/install/rf2o_laser_odometry:/home/pi/ugv_ws/install/openslam_gmapping:/home/pi/ugv_ws/install/ldlidar:/home/pi/ugv_ws/install/explore_lite:/home/pi/ugv_ws/install/emcl2:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:/home/pi/ugv_ws/install/cartographer:/home/pi/ugv_ws/install/apriltag_ros:/home/pi/ugv_ws/install/apriltag_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/ugv_ws/build/costmap_converter_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.155.199 36630 192.168.155.88 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pi/ugv_ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/build/ugv_web_app:/home/pi/ugv_ws/install/ugv_web_app/lib/python3.10/site-packages:/home/pi/ugv_ws/build/ugv_vision:/home/pi/ugv_ws/install/ugv_vision/lib/python3.10/site-packages:/home/pi/ugv_ws/build/ugv_tools:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:/home/pi/ugv_ws/install/ugv_interface/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/build/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_chat_ai/lib/python3.10/site-packages:/home/pi/ugv_ws/build/ugv_bringup:/home/pi/ugv_ws/install/ugv_bringup/lib/python3.10/site-packages:/home/pi/ugv_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/pi/ugv_ws/install/apriltag/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/ugv_ws/install/vizanti:/home/pi/ugv_ws/install/vizanti_server:/home/pi/ugv_ws/install/vizanti_demos:/home/pi/ugv_ws/install/vizanti_msgs:/home/pi/ugv_ws/install/vizanti_cpp:/home/pi/ugv_ws/install/ugv_slam:/home/pi/ugv_ws/install/ugv_nav:/home/pi/ugv_ws/install/ugv_interface:/home/pi/ugv_ws/install/ugv_gazebo:/home/pi/ugv_ws/install/ugv_description:/home/pi/ugv_ws/install/ugv_base_node:/home/pi/ugv_ws/install/teb_local_planner:/home/pi/ugv_ws/install/teb_msgs:/home/pi/ugv_ws/install/sllidar_ros2:/home/pi/ugv_ws/install/slam_gmapping:/home/pi/ugv_ws/install/robot_pose_publisher:/home/pi/ugv_ws/install/rf2o_laser_odometry:/home/pi/ugv_ws/install/openslam_gmapping:/home/pi/ugv_ws/install/ldlidar:/home/pi/ugv_ws/install/explore_lite:/home/pi/ugv_ws/install/emcl2:/home/pi/ugv_ws/install/costmap_converter:/home/pi/ugv_ws/install/costmap_converter_msgs:/home/pi/ugv_ws/install/cartographer:/home/pi/ugv_ws/install/apriltag_ros:/home/pi/ugv_ws/install/apriltag_msgs:/home/pi/ugv_ws/install/apriltag:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble'), ('UGV_MODEL', 'ugv_rover')]), 'shell': False}
+[0.405887] (-) TimerEvent: {}
+[0.506754] (-) TimerEvent: {}
+[0.607649] (-) TimerEvent: {}
+[0.671692] (apriltag) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx\x1b[0m\n'}
+[0.707843] (-) TimerEvent: {}
+[0.727262] (apriltag) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx\x1b[0m\n'}
+[0.802116] (vizanti_msgs) StdoutLine: {'line': b'[  0%] Built target vizanti_msgs__cpp\n'}
+[0.808154] (-) TimerEvent: {}
+[0.909397] (-) TimerEvent: {}
+[0.913544] (apriltag) StdoutLine: {'line': b'[ 85%] Built target apriltag\n'}
+[0.923210] (apriltag_msgs) StdoutLine: {'line': b'[ 10%] Built target apriltag_msgs__rosidl_generator_c\n'}
+[0.998062] (apriltag_msgs) StdoutLine: {'line': b'[ 12%] Built target apriltag_msgs__cpp\n'}
+[1.000882] (vizanti_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_vizanti_msgs\n'}
+[1.009608] (-) TimerEvent: {}
+[1.023930] (vizanti_msgs) StdoutLine: {'line': b'[ 12%] Built target vizanti_msgs__rosidl_generator_c\n'}
+[1.110365] (-) TimerEvent: {}
+[1.156699] (apriltag_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_apriltag_msgs\n'}
+[1.171577] (costmap_converter_msgs) StdoutLine: {'line': b'[  2%] Built target costmap_converter_msgs__cpp\n'}
+[1.184983] (costmap_converter_msgs) StdoutLine: {'line': b'[ 12%] Built target costmap_converter_msgs__rosidl_generator_c\n'}
+[1.210618] (-) TimerEvent: {}
+[1.280825] (apriltag) StdoutLine: {'line': b'[ 90%] Built target apriltag_demo\n'}
+[1.303986] (costmap_converter_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_costmap_converter_msgs\n'}
+[1.310954] (-) TimerEvent: {}
+[1.314409] (vizanti_msgs) StdoutLine: {'line': b'[ 24%] Built target vizanti_msgs__rosidl_typesupport_cpp\n'}
+[1.380622] (vizanti_msgs) StdoutLine: {'line': b'[ 35%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.411127] (-) TimerEvent: {}
+[1.457495] (apriltag) StdoutLine: {'line': b'[ 90%] Built target apriltag_py_docstrings\n'}
+[1.511473] (-) TimerEvent: {}
+[1.520097] (apriltag) StdoutLine: {'line': b'[ 95%] Built target opencv_demo\n'}
+[1.529508] (apriltag_msgs) StdoutLine: {'line': b'[ 23%] Built target apriltag_msgs__rosidl_typesupport_introspection_c\n'}
+[1.545223] (apriltag_msgs) StdoutLine: {'line': b'[ 33%] Built target apriltag_msgs__rosidl_typesupport_c\n'}
+[1.571240] (apriltag_msgs) StdoutLine: {'line': b'[ 43%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.586228] (costmap_converter_msgs) StdoutLine: {'line': b'[ 23%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.611600] (-) TimerEvent: {}
+[1.648571] (vizanti_msgs) StdoutLine: {'line': b'[ 47%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.698940] (costmap_converter_msgs) StdoutLine: {'line': b'[ 33%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.711816] (-) TimerEvent: {}
+[1.744287] (vizanti_msgs) StdoutLine: {'line': b'[ 59%] Built target vizanti_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.761577] (vizanti_msgs) StdoutLine: {'line': b'[ 70%] Built target vizanti_msgs__rosidl_typesupport_c\n'}
+[1.775415] (apriltag_msgs) StdoutLine: {'line': b'[ 53%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.778049] (costmap_converter_msgs) StdoutLine: {'line': b'[ 43%] Built target costmap_converter_msgs__rosidl_typesupport_cpp\n'}
+[1.794157] (apriltag) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target apriltag.cpython-310-aarch64-linux-gnu\x1b[0m\n'}
+[1.811990] (-) TimerEvent: {}
+[1.914767] (-) TimerEvent: {}
+[1.955190] (costmap_converter_msgs) StdoutLine: {'line': b'[ 53%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.993357] (apriltag_msgs) StdoutLine: {'line': b'[ 64%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.014114] (costmap_converter_msgs) StdoutLine: {'line': b'[ 64%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c\n'}
+[2.014933] (-) TimerEvent: {}
+[2.021070] (vizanti_msgs) StdoutLine: {'line': b'[ 82%] Built target vizanti_msgs__rosidl_typesupport_introspection_c\n'}
+[2.051268] (costmap_converter_msgs) StdoutLine: {'line': b'[ 74%] Built target costmap_converter_msgs__rosidl_typesupport_c\n'}
+[2.111908] (apriltag) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/apriltag_pywrap.c.o\x1b[0m\n'}
+[2.115183] (-) TimerEvent: {}
+[2.159680] (apriltag_msgs) StdoutLine: {'line': b'[ 74%] Built target apriltag_msgs__rosidl_typesupport_cpp\n'}
+[2.215389] (-) TimerEvent: {}
+[2.317484] (-) TimerEvent: {}
+[2.362827] (costmap_converter_msgs) StdoutLine: {'line': b'[ 74%] Built target costmap_converter_msgs\n'}
+[2.417893] (-) TimerEvent: {}
+[2.457076] (vizanti_msgs) StdoutLine: {'line': b'[ 82%] Built target vizanti_msgs\n'}
+[2.506308] (apriltag_msgs) StdoutLine: {'line': b'[ 74%] Built target apriltag_msgs\n'}
+[2.518270] (-) TimerEvent: {}
+[2.619830] (-) TimerEvent: {}
+[2.708895] (costmap_converter_msgs) StdoutLine: {'line': b'[ 76%] Built target costmap_converter_msgs__py\n'}
+[2.720224] (-) TimerEvent: {}
+[2.823152] (-) TimerEvent: {}
+[2.825324] (vizanti_msgs) StdoutLine: {'line': b'[ 83%] Built target vizanti_msgs__py\n'}
+[2.874957] (apriltag_msgs) StdoutLine: {'line': b'[ 76%] Built target apriltag_msgs__py\n'}
+[2.923416] (-) TimerEvent: {}
+[2.959561] (costmap_converter_msgs) StdoutLine: {'line': b'[ 84%] Built target costmap_converter_msgs__rosidl_generator_py\n'}
+[3.023632] (-) TimerEvent: {}
+[3.125508] (-) TimerEvent: {}
+[3.227830] (-) TimerEvent: {}
+[3.279767] (apriltag_msgs) StdoutLine: {'line': b'[ 84%] Built target apriltag_msgs__rosidl_generator_py\n'}
+[3.299049] (costmap_converter_msgs) StdoutLine: {'line': b'[ 89%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.330556] (-) TimerEvent: {}
+[3.346684] (vizanti_msgs) StdoutLine: {'line': b'[ 94%] Built target vizanti_msgs__rosidl_generator_py\n'}
+[3.391197] (costmap_converter_msgs) StdoutLine: {'line': b'[ 94%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.430808] (-) TimerEvent: {}
+[3.470000] (costmap_converter_msgs) StdoutLine: {'line': b'[100%] Built target costmap_converter_msgs__rosidl_typesupport_c__pyext\n'}
+[3.531064] (-) TimerEvent: {}
+[3.632616] (-) TimerEvent: {}
+[3.701524] (vizanti_msgs) StdoutLine: {'line': b'[ 96%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.708906] (apriltag_msgs) StdoutLine: {'line': b'[ 89%] Built target apriltag_msgs__rosidl_typesupport_c__pyext\n'}
+[3.732839] (-) TimerEvent: {}
+[3.759983] (vizanti_msgs) StdoutLine: {'line': b'[ 98%] Built target vizanti_msgs__rosidl_typesupport_c__pyext\n'}
+[3.768630] (apriltag_msgs) StdoutLine: {'line': b'[ 94%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.820992] (vizanti_msgs) StdoutLine: {'line': b'[100%] Built target vizanti_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.833160] (-) TimerEvent: {}
+[3.838344] (apriltag_msgs) StdoutLine: {'line': b'[100%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.933406] (-) TimerEvent: {}
+[4.035730] (-) TimerEvent: {}
+[4.137864] (-) TimerEvent: {}
+[4.149963] (apriltag) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module apriltag.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[4.238049] (-) TimerEvent: {}
+[4.339052] (-) TimerEvent: {}
+[4.441175] (apriltag) StderrLine: {'line': b"gmake[2]: *** Deleting file 'apriltag.cpython-310-aarch64-linux-gnu.so'\n"}
+[4.442287] (-) TimerEvent: {}
+[4.445418] (apriltag_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.456226] (apriltag_msgs) StderrLine: {'line': b'  File "/home/pi/ugv_ws/build/apriltag_msgs/ament_cmake_python/apriltag_msgs/setup.py", line 1, in <module>\n'}
+[4.458507] (apriltag_msgs) StderrLine: {'line': b'    from setuptools import find_packages\n'}
+[4.459991] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[4.461540] (vizanti_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.471283] (vizanti_msgs) StderrLine: {'line': b'  File "/home/pi/ugv_ws/build/vizanti_msgs/ament_cmake_python/vizanti_msgs/setup.py", line 1, in <module>\n'}
+[4.506373] (vizanti_msgs) StderrLine: {'line': b'    from setuptools import find_packages\n'}
+[4.514977] (apriltag_msgs) StderrLine: {'line': b'    import setuptools.version\n'}
+[4.526400] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n'}
+[4.536008] (apriltag_msgs) StderrLine: {'line': b'    import pkg_resources\n'}
+[4.543199] (-) TimerEvent: {}
+[4.545504] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>\n'}
+[4.561289] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[4.564763] (vizanti_msgs) StderrLine: {'line': b'    import setuptools.version\n'}
+[4.569445] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n'}
+[4.597146] (vizanti_msgs) StderrLine: {'line': b'    import pkg_resources\n'}
+[4.599857] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>\n'}
+[4.606780] (apriltag) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/build.make:99: apriltag.cpython-310-aarch64-linux-gnu.so] Interrupt\n'}
+[4.612416] (costmap_converter_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.635215] (costmap_converter_msgs) StderrLine: {'line': b'  File "/home/pi/ugv_ws/build/costmap_converter_msgs/ament_cmake_python/costmap_converter_msgs/setup.py", line 1, in <module>\n'}
+[4.641430] (costmap_converter_msgs) StderrLine: {'line': b'    from setuptools import find_packages\n'}
+[4.647686] (-) TimerEvent: {}
+[4.658839] (costmap_converter_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[4.664733] (apriltag) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/all] Interrupt\n'}
+[4.691475] (costmap_converter_msgs) StderrLine: {'line': b'    import setuptools.version\n'}
+[4.693152] (costmap_converter_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n'}
+[4.704607] (costmap_converter_msgs) StderrLine: {'line': b'    import pkg_resources\n'}
+[4.705426] (costmap_converter_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>\n'}
+[4.710579] (vizanti_msgs) StderrLine: {'line': b'    def _initialize_master_working_set():\n'}
+[4.711143] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside\n'}
+[4.711573] (apriltag) StderrLine: {'line': b'gmake: *** [Makefile:136: all] Interrupt\n'}
+[4.711990] (costmap_converter_msgs) StderrLine: {'line': b'    def _initialize_master_working_set():\n'}
+[4.712561] (costmap_converter_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside\n'}
+[4.713057] (apriltag_msgs) StderrLine: {'line': b'    def _initialize_master_working_set():\n'}
+[4.713694] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside\n'}
+[4.714761] (costmap_converter_msgs) StderrLine: {'line': b'    f(*args, **kwargs)\n'}
+[4.715400] (costmap_converter_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set\n'}
+[4.716032] (apriltag_msgs) StderrLine: {'line': b'    f(*args, **kwargs)\n'}
+[4.716773] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set\n'}
+[4.717489] (costmap_converter_msgs) StderrLine: {'line': b'    working_set = WorkingSet._build_master()\n'}
+[4.727320] (costmap_converter_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master\n'}
+[4.728111] (costmap_converter_msgs) StderrLine: {'line': b'    ws = cls()\n'}
+[4.728681] (costmap_converter_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__\n'}
+[4.729408] (costmap_converter_msgs) StderrLine: {'line': b'    self.add_entry(entry)\n'}
+[4.730230] (costmap_converter_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry\n'}
+[4.730958] (costmap_converter_msgs) StderrLine: {'line': b'    for dist in find_distributions(entry, True):\n'}
+[4.731654] (costmap_converter_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path\n'}
+[4.732349] (costmap_converter_msgs) StderrLine: {'line': b'    for dist in factory(fullpath):\n'}
+[4.732929] (costmap_converter_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2135, in distributions_from_metadata\n'}
+[4.733603] (costmap_converter_msgs) StderrLine: {'line': b'    if len(os.listdir(path)) == 0:\n'}
+[4.734367] (costmap_converter_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[4.734873] (vizanti_msgs) StderrLine: {'line': b'    f(*args, **kwargs)\n'}
+[4.735450] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set\n'}
+[4.736022] (vizanti_msgs) StderrLine: {'line': b'    working_set = WorkingSet._build_master()\n'}
+[4.736749] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master\n'}
+[4.737427] (vizanti_msgs) StderrLine: {'line': b'    ws = cls()\n'}
+[4.748527] (-) TimerEvent: {}
+[4.750339] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__\n'}
+[4.751346] (vizanti_msgs) StderrLine: {'line': b'    self.add_entry(entry)\n'}
+[4.752458] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry\n'}
+[4.753264] (vizanti_msgs) StderrLine: {'line': b'    for dist in find_distributions(entry, True):\n'}
+[4.754139] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path\n'}
+[4.755041] (vizanti_msgs) StderrLine: {'line': b'    for dist in factory(fullpath):\n'}
+[4.764117] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata\n'}
+[4.764981] (apriltag_msgs) StderrLine: {'line': b'    working_set = WorkingSet._build_master()\n'}
+[4.765581] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master\n'}
+[4.766950] (apriltag_msgs) StderrLine: {'line': b'    ws = cls()\n'}
+[4.767492] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__\n'}
+[4.767992] (apriltag_msgs) StderrLine: {'line': b'    self.add_entry(entry)\n'}
+[4.768499] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry\n'}
+[4.769337] (apriltag_msgs) StderrLine: {'line': b'    for dist in find_distributions(entry, True):\n'}
+[4.770470] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path\n'}
+[4.771018] (apriltag_msgs) StderrLine: {'line': b'    for dist in factory(fullpath):\n'}
+[4.771563] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata\n'}
+[4.772686] (apriltag_msgs) StderrLine: {'line': b'    yield Distribution.from_location(\n'}
+[4.773484] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2606, in from_location\n'}
+[4.774570] (apriltag) CommandEnded: {'returncode': -2}
+[4.781491] (vizanti_msgs) StderrLine: {'line': b'    yield Distribution.from_location(\n'}
+[4.789856] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2603, in from_location\n'}
+[4.791132] (vizanti_msgs) StderrLine: {'line': b'    return cls(\n'}
+[4.792290] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2584, in __init__\n'}
+[4.793591] (vizanti_msgs) StderrLine: {'line': b'    self._version = safe_version(version)\n'}
+[4.794442] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1323, in safe_version\n'}
+[4.796309] (vizanti_msgs) StderrLine: {'line': b'    return str(packaging.version.Version(version))\n'}
+[4.797014] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 312, in __str__\n'}
+[4.797971] (apriltag_msgs) StderrLine: {'line': b'    )._reload_version()\n'}
+[4.799181] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3004, in _reload_version\n'}
+[4.799762] (apriltag_msgs) StderrLine: {'line': b'    md_version = self._get_version()\n'}
+[4.800302] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2785, in _get_version\n'}
+[4.800835] (apriltag_msgs) StderrLine: {'line': b'    version = _version_from_file(lines)\n'}
+[4.801847] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2571, in _version_from_file\n'}
+[4.802463] (apriltag_msgs) StderrLine: {'line': b'    return safe_version(value.strip()) or None\n'}
+[4.802975] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1323, in safe_version\n'}
+[4.803484] (apriltag_msgs) StderrLine: {'line': b'    return str(packaging.version.Version(version))\n'}
+[4.804366] (apriltag_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 271, in __init__\n'}
+[4.805160] (apriltag_msgs) StderrLine: {'line': b'    release=tuple(int(i) for i in match.group("release").split(".")),\n'}
+[4.808741] (apriltag_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[4.811708] (vizanti_msgs) StderrLine: {'line': b'    if self.dev is not None:\n'}
+[4.815170] (vizanti_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 340, in dev\n'}
+[4.818634] (vizanti_msgs) StderrLine: {'line': b'    @property\n'}
+[4.822649] (vizanti_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[4.827624] (costmap_converter_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_costmap_converter_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_costmap_converter_msgs_egg] Interrupt\n'}
+[4.831726] (costmap_converter_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_costmap_converter_msgs_egg.dir/all] Interrupt\n'}
+[4.834804] (costmap_converter_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[4.838176] (apriltag_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_apriltag_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_apriltag_msgs_egg] Interrupt\n'}
+[4.843156] (apriltag_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_apriltag_msgs_egg.dir/all] Interrupt\n'}
+[4.844391] (apriltag_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[4.844921] (vizanti_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_vizanti_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_vizanti_msgs_egg] Interrupt\n'}
+[4.845438] (vizanti_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_vizanti_msgs_egg.dir/all] Interrupt\n'}
+[4.846297] (vizanti_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[4.848830] (-) TimerEvent: {}
+[4.923370] (apriltag) JobEnded: {'identifier': 'apriltag', 'rc': 'SIGINT'}
+[4.930939] (costmap_converter_msgs) JobEnded: {'identifier': 'costmap_converter_msgs', 'rc': 'SIGINT'}
+[4.934063] (apriltag_msgs) JobEnded: {'identifier': 'apriltag_msgs', 'rc': 'SIGINT'}
+[4.937037] (vizanti_msgs) JobEnded: {'identifier': 'vizanti_msgs', 'rc': 'SIGINT'}
+[4.944480] (cartographer) JobSkipped: {'identifier': 'cartographer'}
+[4.944765] (emcl2) JobSkipped: {'identifier': 'emcl2'}
+[4.944917] (explore_lite) JobSkipped: {'identifier': 'explore_lite'}
+[4.945028] (ldlidar) JobSkipped: {'identifier': 'ldlidar'}
+[4.945119] (openslam_gmapping) JobSkipped: {'identifier': 'openslam_gmapping'}
+[4.945198] (rf2o_laser_odometry) JobSkipped: {'identifier': 'rf2o_laser_odometry'}
+[4.945277] (robot_pose_publisher) JobSkipped: {'identifier': 'robot_pose_publisher'}
+[4.945359] (sllidar_ros2) JobSkipped: {'identifier': 'sllidar_ros2'}
+[4.945439] (ugv_base_node) JobSkipped: {'identifier': 'ugv_base_node'}
+[4.945516] (ugv_bringup) JobSkipped: {'identifier': 'ugv_bringup'}
+[4.945593] (ugv_chat_ai) JobSkipped: {'identifier': 'ugv_chat_ai'}
+[4.945670] (ugv_description) JobSkipped: {'identifier': 'ugv_description'}
+[4.945845] (ugv_gazebo) JobSkipped: {'identifier': 'ugv_gazebo'}
+[4.945952] (ugv_interface) JobSkipped: {'identifier': 'ugv_interface'}
+[4.946045] (ugv_nav) JobSkipped: {'identifier': 'ugv_nav'}
+[4.946136] (ugv_slam) JobSkipped: {'identifier': 'ugv_slam'}
+[4.946236] (ugv_tools) JobSkipped: {'identifier': 'ugv_tools'}
+[4.946327] (ugv_vision) JobSkipped: {'identifier': 'ugv_vision'}
+[4.946415] (ugv_web_app) JobSkipped: {'identifier': 'ugv_web_app'}
+[4.946513] (vizanti_cpp) JobSkipped: {'identifier': 'vizanti_cpp'}
+[4.946616] (apriltag_ros) JobSkipped: {'identifier': 'apriltag_ros'}
+[4.946713] (costmap_converter) JobSkipped: {'identifier': 'costmap_converter'}
+[4.946806] (slam_gmapping) JobSkipped: {'identifier': 'slam_gmapping'}
+[4.946897] (vizanti_demos) JobSkipped: {'identifier': 'vizanti_demos'}
+[4.946985] (vizanti_server) JobSkipped: {'identifier': 'vizanti_server'}
+[4.947084] (vizanti) JobSkipped: {'identifier': 'vizanti'}
+[4.947184] (-) EventReactorShutdown: {}

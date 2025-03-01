@@ -1,0 +1,32 @@
+[0.486s] Invoking command in '/home/pi/ugv_ws/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ldlidar -- -j4 -l4
+[1.366s] [100%] Built target ldlidar_node
+[1.831s] Invoked command in '/home/pi/ugv_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ldlidar -- -j4 -l4
+[1.842s] Invoking command in '/home/pi/ugv_ws/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ldlidar
+[1.952s] -- Install configuration: ""
+[1.990s] -- Execute custom install script
+[1.993s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/lib/ldlidar/ldlidar_node
+[2.028s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/ld06.launch.py
+[2.030s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/ld19.launch.py
+[2.031s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/ldlidar.launch.py
+[2.036s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/stl27l.launch.py
+[2.039s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/viewer_ld06.launch.py
+[2.040s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/viewer_ld19.launch.py
+[2.040s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/viewer_ldlidar.launch.py
+[2.041s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//launch/viewer_stl27l.launch.py
+[2.042s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar//rviz/view.rviz
+[2.052s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar
+[2.053s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar
+[2.063s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh
+[2.084s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv
+[2.084s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/environment/path.sh
+[2.088s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/environment/path.dsv
+[2.090s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/local_setup.bash
+[2.090s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/local_setup.sh
+[2.091s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/local_setup.zsh
+[2.092s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/local_setup.dsv
+[2.111s] -- Symlinking: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/package.dsv
+[2.180s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ament_index/resource_index/packages/ldlidar
+[2.181s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake
+[2.191s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake
+[2.193s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ldlidar/share/ldlidar/package.xml
+[2.194s] Invoked command in '/home/pi/ugv_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ldlidar

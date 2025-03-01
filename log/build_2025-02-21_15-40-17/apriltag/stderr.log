@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'apriltag.cpython-310-aarch64-linux-gnu.so'
+gmake[2]: *** [CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/build.make:99: apriltag.cpython-310-aarch64-linux-gnu.so] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/all] Interrupt
+gmake: *** [Makefile:136: all] Interrupt

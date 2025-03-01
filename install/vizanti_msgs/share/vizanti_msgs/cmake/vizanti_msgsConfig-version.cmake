@@ -1,0 +1,1 @@
+/home/pi/ugv_ws/build/vizanti_msgs/ament_cmake_core/vizanti_msgsConfig-version.cmake

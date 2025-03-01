@@ -1,0 +1,42 @@
+[0.276s] Invoking command in '/home/pi/ugv_ws/build/emcl2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/emcl2 -- -j4 -l4
+[0.946s] [100%] Built target emcl2_node
+[1.266s] Invoked command in '/home/pi/ugv_ws/build/emcl2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/emcl2 -- -j4 -l4
+[1.288s] Invoking command in '/home/pi/ugv_ws/build/emcl2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/emcl2
+[1.388s] -- Install configuration: ""
+[1.388s] -- Execute custom install script
+[1.400s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/lib/emcl2/test.bash
+[1.422s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/lib/emcl2/test_gui.bash
+[1.422s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/include/emcl2/ExpResetMcl2.h
+[1.423s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/include/emcl2/LikelihoodFieldMap.h
+[1.424s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/include/emcl2/Mcl.h
+[1.425s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/include/emcl2/OdomModel.h
+[1.426s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/include/emcl2/Particle.h
+[1.427s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/include/emcl2/Pose.h
+[1.473s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/include/emcl2/Scan.h
+[1.474s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/include/emcl2/emcl2_node.h
+[1.474s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/lib/emcl2/emcl2_node
+[1.475s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/config/emcl2.param.yaml
+[1.475s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/config/emcl2_quick_start.param.yaml
+[1.475s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/launch/emcl2.launch.py
+[1.476s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/test/demo.bash
+[1.476s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/test/test.bash
+[1.481s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/test/test.launch.xml
+[1.484s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/test/test_gui.bash
+[1.486s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/ament_index/resource_index/package_run_dependencies/emcl2
+[1.492s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/ament_index/resource_index/parent_prefix_path/emcl2
+[1.492s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/environment/ament_prefix_path.sh
+[1.493s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/environment/ament_prefix_path.dsv
+[1.516s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/environment/path.sh
+[1.517s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/environment/path.dsv
+[1.517s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/local_setup.bash
+[1.519s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/local_setup.sh
+[1.520s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/local_setup.zsh
+[1.522s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/local_setup.dsv
+[1.523s] -- Symlinking: /home/pi/ugv_ws/install/emcl2/share/emcl2/package.dsv
+[1.684s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/ament_index/resource_index/packages/emcl2
+[1.685s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.686s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.686s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/cmake/emcl2Config.cmake
+[1.687s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/cmake/emcl2Config-version.cmake
+[1.687s] -- Up-to-date symlink: /home/pi/ugv_ws/install/emcl2/share/emcl2/package.xml
+[1.740s] Invoked command in '/home/pi/ugv_ws/build/emcl2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/emcl2

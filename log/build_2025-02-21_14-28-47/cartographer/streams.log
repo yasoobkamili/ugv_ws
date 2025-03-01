@@ -1,0 +1,51 @@
+[0.035s] Invoking command in '/home/pi/ugv_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ugv_ws/src/ugv_else/cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ugv_ws/install/cartographer
+[0.396s] -- The C compiler identification is GNU 11.4.0
+[0.733s] -- The CXX compiler identification is GNU 11.4.0
+[0.769s] -- Detecting C compiler ABI info
+[1.213s] -- Detecting C compiler ABI info - done
+[1.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.245s] -- Detecting C compile features
+[1.247s] -- Detecting C compile features - done
+[1.263s] -- Detecting CXX compiler ABI info
+[1.756s] -- Detecting CXX compiler ABI info - done
+[1.793s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.797s] -- Detecting CXX compile features
+[1.803s] -- Detecting CXX compile features - done
+[1.841s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.969s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.399s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.777s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.451s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.457s] -- Added test 'lint_cmake' to check CMake code style
+[4.461s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.471s] -- Added test 'xmllint' to check XML markup files
+[4.483s] -- Configuring done
+[4.511s] -- Generating done
+[4.523s] -- Build files have been written to: /home/pi/ugv_ws/build/cartographer
+[4.553s] Invoked command in '/home/pi/ugv_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/ugv_ws/src/ugv_else/cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pi/ugv_ws/install/cartographer
+[4.556s] Invoking command in '/home/pi/ugv_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/cartographer -- -j4 -l4
+[4.756s] Invoked command in '/home/pi/ugv_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/cartographer -- -j4 -l4
+[4.765s] Invoking command in '/home/pi/ugv_ws/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/cartographer
+[4.808s] -- Install configuration: ""
+[4.811s] -- Execute custom install script
+[4.816s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/config/localization_2d.lua
+[4.867s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/config/mapping_2d.lua
+[4.907s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/launch/localization.launch.py
+[4.951s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/launch/mapping.launch.py
+[4.988s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/launch/occupancy_grid.launch.py
+[5.029s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/ament_index/resource_index/package_run_dependencies/cartographer
+[5.075s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/ament_index/resource_index/parent_prefix_path/cartographer
+[5.122s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/environment/ament_prefix_path.sh
+[5.162s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/environment/ament_prefix_path.dsv
+[5.201s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/environment/path.sh
+[5.244s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/environment/path.dsv
+[5.294s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/local_setup.bash
+[5.336s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/local_setup.sh
+[5.382s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/local_setup.zsh
+[5.428s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/local_setup.dsv
+[5.482s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/package.dsv
+[5.524s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/ament_index/resource_index/packages/cartographer
+[5.570s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/cmake/cartographerConfig.cmake
+[5.611s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/cmake/cartographerConfig-version.cmake
+[5.656s] -- Symlinking: /home/pi/ugv_ws/install/cartographer/share/cartographer/package.xml
+[5.719s] Invoked command in '/home/pi/ugv_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/cartographer

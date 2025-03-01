@@ -1,0 +1,1 @@
+/home/pi/ugv_ws/build/ugv_slam/ament_cmake_environment_hooks/local_setup.bash

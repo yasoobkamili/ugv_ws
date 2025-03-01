@@ -1,0 +1,24 @@
+[0.110s] Invoking command in '/home/pi/ugv_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pi/ugv_ws/build/slam_gmapping -- -j4 -l4
+[0.922s] [100%] Built target slam_gmapping
+[1.039s] Invoked command in '/home/pi/ugv_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pi/ugv_ws/build/slam_gmapping -- -j4 -l4
+[1.042s] Invoking command in '/home/pi/ugv_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pi/ugv_ws/build/slam_gmapping
+[1.130s] -- Install configuration: ""
+[1.133s] -- Execute custom install script
+[1.136s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[1.150s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/launch/mapping.launch.py
+[1.160s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[1.171s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[1.172s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[1.172s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[1.173s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[1.173s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[1.207s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[1.226s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[1.226s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[1.227s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[1.227s] -- Symlinking: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[1.311s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[1.314s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[1.315s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[1.322s] -- Up-to-date symlink: /home/pi/ugv_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[1.364s] Invoked command in '/home/pi/ugv_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/pi/ugv_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/ugv_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/pi/ugv_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pi/ugv_ws/build/slam_gmapping

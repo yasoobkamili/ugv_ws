@@ -1,0 +1,1 @@
+/home/pi/ugv_ws/build/cartographer/ament_cmake_environment_hooks/local_setup.bash

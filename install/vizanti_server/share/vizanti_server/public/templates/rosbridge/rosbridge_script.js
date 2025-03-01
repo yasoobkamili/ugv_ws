@@ -1,0 +1,1 @@
+/home/pi/ugv_ws/src/ugv_else/vizanti/vizanti_server/public/templates/rosbridge/rosbridge_script.js

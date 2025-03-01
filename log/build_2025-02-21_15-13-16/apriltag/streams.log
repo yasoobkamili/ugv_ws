@@ -1,0 +1,66 @@
+[0.168s] Invoking command in '/home/pi/ugv_ws/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/apriltag -- -j4 -l4
+[0.690s] [  2%] [34m[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx[0m
+[0.734s] [  4%] [34m[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx[0m
+[0.819s] [ 85%] Built target apriltag
+[1.232s] [ 90%] Built target apriltag_demo
+[1.270s] [ 90%] Built target apriltag_py_docstrings
+[1.447s] [ 95%] Built target opencv_demo
+[1.614s] [35m[1mConsolidate compiler generated dependencies of target apriltag.cpython-310-aarch64-linux-gnu[0m
+[2.050s] [ 97%] [32mBuilding C object CMakeFiles/apriltag.cpython-310-aarch64-linux-gnu.dir/apriltag_pywrap.c.o[0m
+[4.623s] [100%] [32m[1mLinking C shared module apriltag.cpython-310-aarch64-linux-gnu.so[0m
+[5.047s] [100%] Built target apriltag.cpython-310-aarch64-linux-gnu
+[5.197s] Invoked command in '/home/pi/ugv_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/apriltag -- -j4 -l4
+[5.323s] Invoking command in '/home/pi/ugv_ws/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/apriltag
+[5.382s] -- Install configuration: "Release"
+[5.384s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/apriltag.h
+[5.386s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/apriltag_math.h
+[5.387s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/apriltag_pose.h
+[5.389s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/debug_print.h
+[5.395s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/doubles.h
+[5.397s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[5.399s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/floats.h
+[5.402s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/g2d.h
+[5.404s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/getopt.h
+[5.406s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/homography.h
+[5.408s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/image_types.h
+[5.410s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/image_u8.h
+[5.412s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/image_u8x3.h
+[5.414s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/image_u8x4.h
+[5.416s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/matd.h
+[5.418s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/math_util.h
+[5.419s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/pam.h
+[5.422s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/pjpeg.h
+[5.424s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/pnm.h
+[5.426s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/postscript_utils.h
+[5.427s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/pthreads_cross.h
+[5.429s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/string_util.h
+[5.431s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/svd22.h
+[5.433s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/time_util.h
+[5.435s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/timeprofile.h
+[5.436s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/unionfind.h
+[5.438s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/workerpool.h
+[5.440s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/zarray.h
+[5.442s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/zhash.h
+[5.444s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/common/zmaxheap.h
+[5.446s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/tag16h5.h
+[5.448s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/tag25h9.h
+[5.450s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/tag36h10.h
+[5.456s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/tag36h11.h
+[5.457s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/tagCircle21h7.h
+[5.457s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/tagCircle49h12.h
+[5.461s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/tagCustom48h12.h
+[5.462s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/tagStandard41h12.h
+[5.468s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/include/apriltag/tagStandard52h13.h
+[5.470s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/lib/libapriltag.so.3.4.2
+[5.471s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/lib/libapriltag.so.3
+[5.474s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/lib/libapriltag.so
+[5.477s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/share/apriltag/cmake/apriltagTargets.cmake
+[5.477s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/share/apriltag/cmake/apriltagTargets-release.cmake
+[5.480s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/share/apriltag/cmake/apriltagConfig.cmake
+[5.481s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/share/apriltag/cmake/apriltagConfigVersion.cmake
+[5.484s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/lib/pkgconfig/apriltag.pc
+[5.487s] -- Installing: /home/pi/ugv_ws/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-aarch64-linux-gnu.so
+[5.489s] -- Set runtime path of "/home/pi/ugv_ws/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-aarch64-linux-gnu.so" to ""
+[5.497s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/bin/opencv_demo
+[5.501s] -- Up-to-date: /home/pi/ugv_ws/install/apriltag/bin/apriltag_demo
+[5.516s] Invoked command in '/home/pi/ugv_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/apriltag

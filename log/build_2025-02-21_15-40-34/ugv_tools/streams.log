@@ -1,0 +1,19 @@
+[7.929s] Invoking command in '/home/pi/ugv_ws/build/ugv_tools': PYTHONPATH=/home/pi/ugv_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_tools/build --no-deps symlink_data
+[10.233s] running develop
+[11.888s] running egg_info
+[11.890s] writing ugv_tools.egg-info/PKG-INFO
+[11.891s] writing dependency_links to ugv_tools.egg-info/dependency_links.txt
+[11.893s] writing entry points to ugv_tools.egg-info/entry_points.txt
+[11.893s] writing requirements to ugv_tools.egg-info/requires.txt
+[11.894s] writing top-level names to ugv_tools.egg-info/top_level.txt
+[11.904s] reading manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[11.908s] writing manifest file 'ugv_tools.egg-info/SOURCES.txt'
+[11.918s] running build_ext
+[11.922s] Creating /home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages/ugv-tools.egg-link (link to .)
+[11.924s] Installing behavior_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[11.928s] Installing joy_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[11.930s] Installing keyboard_ctrl script to /home/pi/ugv_ws/install/ugv_tools/lib/ugv_tools
+[11.931s] 
+[11.932s] Installed /home/pi/ugv_ws/build/ugv_tools
+[11.933s] running symlink_data
+[13.016s] Invoked command in '/home/pi/ugv_ws/build/ugv_tools' returned '0': PYTHONPATH=/home/pi/ugv_ws/build/ugv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ugv_ws/install/ugv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ugv_ws/build/ugv_tools/build --no-deps symlink_data

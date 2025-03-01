@@ -1,0 +1,25 @@
+[0.217s] Invoking command in '/home/pi/ugv_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/rf2o_laser_odometry -- -j4 -l4
+[0.898s] [ 60%] Built target rf2o_laser_odometry_node
+[1.219s] [100%] Built target rf2o_laser_odometry
+[1.517s] Invoked command in '/home/pi/ugv_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/rf2o_laser_odometry -- -j4 -l4
+[1.521s] Invoking command in '/home/pi/ugv_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/rf2o_laser_odometry
+[1.680s] -- Install configuration: ""
+[1.682s] -- Execute custom install script
+[1.684s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[1.687s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[1.689s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[1.691s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[1.697s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[1.699s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[1.701s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[1.702s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[1.705s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[1.706s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[1.707s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[1.708s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[1.709s] -- Symlinking: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[1.857s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[1.858s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[1.859s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[1.861s] -- Up-to-date symlink: /home/pi/ugv_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[2.048s] Invoked command in '/home/pi/ugv_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/ugv_ws/install/ugv_web_app:/home/pi/ugv_ws/install/ugv_vision:/home/pi/ugv_ws/install/ugv_tools:/home/pi/ugv_ws/install/ugv_chat_ai:/home/pi/ugv_ws/install/ugv_bringup:/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/rf2o_laser_odometry

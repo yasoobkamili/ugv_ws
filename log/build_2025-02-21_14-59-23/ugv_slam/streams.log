@@ -1,0 +1,26 @@
+[0.094s] Invoking command in '/home/pi/ugv_ws/build/ugv_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ugv_slam -- -j4 -l4
+[0.954s] Invoked command in '/home/pi/ugv_ws/build/ugv_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/ugv_ws/build/ugv_slam -- -j4 -l4
+[0.972s] Invoking command in '/home/pi/ugv_ws/build/ugv_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ugv_slam
+[1.035s] -- Install configuration: ""
+[1.044s] -- Execute custom install script
+[1.060s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/launch/cartographer.launch.py
+[1.061s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/launch/gmapping.launch.py
+[1.064s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/launch/rtabmap_rgbd.launch.py
+[1.067s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/rviz/view_slam_2d.rviz
+[1.069s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/rviz/view_slam_3d.rviz
+[1.072s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ament_index/resource_index/package_run_dependencies/ugv_slam
+[1.075s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ament_index/resource_index/parent_prefix_path/ugv_slam
+[1.082s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/environment/ament_prefix_path.sh
+[1.085s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/environment/ament_prefix_path.dsv
+[1.088s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/environment/path.sh
+[1.102s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/environment/path.dsv
+[1.105s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/local_setup.bash
+[1.107s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/local_setup.sh
+[1.110s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/local_setup.zsh
+[1.112s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/local_setup.dsv
+[1.114s] -- Symlinking: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/package.dsv
+[1.211s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ament_index/resource_index/packages/ugv_slam
+[1.213s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/cmake/ugv_slamConfig.cmake
+[1.214s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/cmake/ugv_slamConfig-version.cmake
+[1.215s] -- Up-to-date symlink: /home/pi/ugv_ws/install/ugv_slam/share/ugv_slam/package.xml
+[4.452s] Invoked command in '/home/pi/ugv_ws/build/ugv_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/ugv_ws/build/ugv_slam
